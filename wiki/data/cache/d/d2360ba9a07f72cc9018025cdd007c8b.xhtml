@@ -1,0 +1,106 @@
+
+<h1 class="sectionedit1" id="data_tier_implementation">Data Tier Implementation</h1>
+<div class="level1">
+<ul>
+<li class="level1"><div class="li"> Related Technologies: Hadoop, Big Data, HBase, PostgreSQL, Spring Data Hadoop, Spring Integration, Spring Batch, MapReduce, Sqoop, HDFS</div>
+</li>
+<li class="level1"><div class="li"> Sample Architeture</div>
+</li>
+</ul>
+
+<p>
+<a href="/wiki/lib/exe/detail.php?id=data_tier&amp;media=wiki:dc64f7bbce2b9f78a3876195499a50cd.jpeg" class="media" title="wiki:dc64f7bbce2b9f78a3876195499a50cd.jpeg"><img src="/wiki/lib/exe/fetch.php?media=wiki:dc64f7bbce2b9f78a3876195499a50cd.jpeg" class="media" title="dc64f7bbce2b9f78a3876195499a50cd.jpeg" alt="dc64f7bbce2b9f78a3876195499a50cd.jpeg" /></a>
+</p>
+
+</div>
+<!-- EDIT1 SECTION "Data Tier Implementation" [1-250] -->
+<h2 class="sectionedit2" id="subtasks">Subtasks</h2>
+<div class="level2">
+
+<p>
+Completed:
+</p>
+<ol>
+<li class="level1"><div class="li"> <a href="/wiki/doku.php?id=ec2-local-dns" class="wikilink1" title="ec2-local-dns">Local DNS/NTP Server Configuration</a></div>
+</li>
+<li class="level1"><div class="li"> Test Data will be used from Bryan district PMIS data .csv file.</div>
+</li>
+<li class="level1"><div class="li"> <a href="/wiki/doku.php?id=ec2-zookeeper" class="wikilink1" title="ec2-zookeeper">Configure ZooKeeper</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/wiki/doku.php?id=ec2-postgres" class="wikilink1" title="ec2-postgres">Configure PostgreSQL at EC2 master node</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/wiki/doku.php?id=ec2-hadoop-config" class="wikilink1" title="ec2-hadoop-config">Configure Hadoop system at EC2 (e.g. use 1 master and 1 slave)</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/wiki/doku.php?id=ec2-hbase-config" class="wikilink2" title="ec2-hbase-config" rel="nofollow">Configure HBase</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/wiki/doku.php?id=initial_package_requirements" class="wikilink1" title="initial_package_requirements">Define Key Columns</a> <img src="/wiki/lib/images/smileys/icon_exclaim.gif" class="icon" alt=":!:" /></div>
+</li>
+<li class="level1"><div class="li"> <a href="/wiki/doku.php?id=ec2-important-ports" class="wikilink1" title="ec2-important-ports">Important Ports</a></div>
+</li>
+</ol>
+<hr />
+
+<p>
+Todo:
+</p>
+<ol>
+<li class="level1"><div class="li"> <a href="/wiki/doku.php?id=methodikos-db-modeling" class="wikilink1" title="methodikos-db-modeling">Database Modeling</a></div>
+<ol>
+<li class="level2"><div class="li"> Consists of designing <a href="/wiki/doku.php?id=methodikos-domain-modeling" class="wikilink2" title="methodikos-domain-modeling" rel="nofollow">domain model</a> and how effectively we can perform <a href="/wiki/doku.php?id=methodikos-business-operation" class="wikilink1" title="methodikos-business-operation">business operations</a> (e.g. segmentation or IBC Analysis) on multiple nodes with MapReduce programming model.</div>
+</li>
+<li class="level2"><div class="li"> Important concepts: MapReduce on Hadoop with HBase support, Domain Model Design</div>
+</li>
+</ol>
+</li>
+<li class="level1"><div class="li"> Below steps will be done after having firm client side ui logic</div>
+<ol>
+<li class="level2"><div class="li"> Importing .csv file to PostgreSQL</div>
+</li>
+<li class="level2"><div class="li"> Using Sqoop, import PostgreSQL data to HBase at HDFS.</div>
+</li>
+<li class="level2"><div class="li"> Configure Spring Framework Data Hadoop</div>
+</li>
+<li class="level2"><div class="li"> Doing some MapReduce work</div>
+</li>
+</ol>
+</li>
+<li class="level1"><div class="li"> <del>Design prototype user interface for data importing</del></div>
+</li>
+<li class="level1"><div class="li"> Wiring user interface</div>
+</li>
+</ol>
+
+</div>
+<!-- EDIT2 SECTION "Subtasks" [251-1486] -->
+<h2 class="sectionedit3" id="troubleshooting">Troubleshooting</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> Not able to remotely connect from local machine to ec2 hbase both from shell and from java code</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Hmaster registers its address with ZK. And from there client will come to know where to look for Hmaster. And if the Hmaster registers its address as &#039;localhost&#039;, the client will take it as the &#039;localhost&#039;, which is client&#039;s &#039;localhost&#039; and not the &#039;localhost&#039; where Hmaster is running. So, if you have the IP and hostname of the Hmaster in your /etc/hosts file the client can reach that machine without any problem as there is proper <abbr title="Domain Name System">DNS</abbr> resolution available.</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> When it comes to ec2 instances, Hmaster registers its internal domain name (e.g. domU-12-31-39-06-90-9E.compute-1.internal) to zookeeper. So when we try to connect to HBase cluster residing at AWS from outside of AWS, the remote machine has to know the public ip of domU-12-31-39-06-90-9E.compute-1.internal. This is handled by /etc/hosts in the remote machine. Add something like followings to /etc/hosts</div>
+</li>
+</ul>
+
+<p>
+<pre class="code">23.20.133.182 domU-12-31-39-06-90-9E.compute-1.internal
+50.17.12.105 ip-10-164-71-62.ec2.internal </pre>
+
+</p>
+<ul>
+<li class="level1"><div class="li"> Version compatibility issue with spring data hadoop, hbase</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT3 SECTION "Troubleshooting" [1487-2669] -->
+<h2 class="sectionedit4" id="data_tier_configuration">Data Tier Configuration</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT4 SECTION "Data Tier Configuration" [2670-] -->

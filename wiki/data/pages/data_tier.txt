@@ -1,0 +1,40 @@
+====== Data Tier Implementation ======
+  * Related Technologies: Hadoop, Big Data, HBase, PostgreSQL, Spring Data Hadoop, Spring Integration, Spring Batch, MapReduce, Sqoop, HDFS
+  * Sample Architeture
+{{:wiki:dc64f7bbce2b9f78a3876195499a50cd.jpeg}}
+===== Subtasks =====
+Completed:
+  - [[:ec2-local-dns|Local DNS/NTP Server Configuration]]
+  - Test Data will be used from Bryan district PMIS data .csv file.
+  - [[:ec2-zookeeper|Configure ZooKeeper]]
+  - [[:ec2-postgres|Configure PostgreSQL at EC2 master node]]
+  - [[:ec2-hadoop-config|Configure Hadoop system at EC2 (e.g. use 1 master and 1 slave)]]
+  - [[:ec2-hbase-config|Configure HBase]]
+  - [[initial package requirements|Define Key Columns]] :!:
+  - [[:ec2-important-ports|Important Ports]]
+
+----
+Todo:
+  - [[:methodikos-db-modeling|Database Modeling]]
+    - Consists of designing [[:methodikos-domain-modeling|domain model]] and how effectively we can perform [[:methodikos-business-operation|business operations]] (e.g. segmentation or IBC Analysis) on multiple nodes with MapReduce programming model.
+    - Important concepts: MapReduce on Hadoop with HBase support, Domain Model Design
+  - Below steps will be done after having firm client side ui logic
+    - Importing .csv file to PostgreSQL
+    - Using Sqoop, import PostgreSQL data to HBase at HDFS.
+    - Configure Spring Framework Data Hadoop
+    - Doing some MapReduce work
+  - <del>Design prototype user interface for data importing</del>
+  - Wiring user interface
+===== Troubleshooting =====
+  * Not able to remotely connect from local machine to ec2 hbase both from shell and from java code
+
+  * Hmaster registers its address with ZK. And from there client will come to know where to look for Hmaster. And if the Hmaster registers its address as 'localhost', the client will take it as the 'localhost', which is client's 'localhost' and not the 'localhost' where Hmaster is running. So, if you have the IP and hostname of the Hmaster in your /etc/hosts file the client can reach that machine without any problem as there is proper DNS resolution available.
+
+  * When it comes to ec2 instances, Hmaster registers its internal domain name (e.g. domU-12-31-39-06-90-9E.compute-1.internal) to zookeeper. So when we try to connect to HBase cluster residing at AWS from outside of AWS, the remote machine has to know the public ip of domU-12-31-39-06-90-9E.compute-1.internal. This is handled by /etc/hosts in the remote machine. Add something like followings to /etc/hosts
+<code>
+23.20.133.182 domU-12-31-39-06-90-9E.compute-1.internal
+50.17.12.105 ip-10-164-71-62.ec2.internal 
+</code>
+
+  * Version compatibility issue with spring data hadoop, hbase
+===== Data Tier Configuration =====

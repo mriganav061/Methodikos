@@ -1,0 +1,357 @@
+/* COTW CSS Document - SECTION COLOURS */
+
+
+
+.section-odd { color:#bdb4a8; }
+.section-art { color:#b73b05; }
+.section-photos { color:#3f94d6; }
+.section-culture { color:#db971e; }
+.section-green { color:#6c7d32; }
+.section-blog { color:#3a5b7a; }
+.section-forum { color:#3a5b7a; }
+.section-white { color:#fff; }
+.section-dark { color:#333; }
+
+
+#art .filter-content li,
+#photos .filter-content li,
+#art overview-filter-content li,
+#photos overview-filter-content li { margin-left:-5px; }
+
+#art .filter-content li a,
+#photos .filter-content li a { width:70px; height:70px; }
+
+
+#home #filter { top:241px; }
+
+#odd #filter, 
+#art #filter, 
+#photos #filter,
+#culture #filter,
+#green #filter,
+#forum #filter,
+#blog #filter { top:285px; }
+
+#home #body { top:241px; }
+
+#odd #body, 
+#art #body, 
+#photos #body,
+#culture #body,
+#green #body,
+#forum #body,
+#blog #body { top:285px; }
+
+
+
+/*PRIMARY NAVI
+--------------------------------------------------------------------------*/
+#primary li .art-primary-navi { background:url(/images/primary-art.gif) 0 0 no-repeat; }
+#primary li .photos-primary-navi { background:url(/images/primary-photos.gif) 0 0 no-repeat; }
+#primary li .culture-primary-navi { background:url(/images/primary-culture.gif) 0 0 no-repeat; }
+
+#primary li .art-primary-navi a:hover { color:#391506; }
+#primary li .photos-primary-navi a:hover { color:#062034; }
+#primary li .culture-primary-navi a:hover { color:#381e07; }
+
+
+
+/*HOME PAGE
+--------------------------------------------------------------------------*/
+#home .logo { background:url(/images/logo-cotw.gif) 0 0; }
+#home #primary { background:url(/images/dotty-home.gif) repeat-x 0 0; }
+#home #secondary ul { border-bottom-color:#bdb4a8; }
+
+#home #secondary li a:hover,
+#home #secondary li a.active,
+#home .text-content p a:hover,
+#home .text-content h3 a:hover,
+#home .text-content h4 a:hover,
+#home .text-content footer,
+#home .text-content span,
+#home .back-to-top a:hover {
+	color:#bdb4a8;
+}
+
+#home #secondary li a {
+	color:#46413b;
+}
+
+#home .text-content a:hover,
+#home .right-col .cross-link {
+	border-color:#bdb4a8;
+}
+
+
+
+/*HOME PAGE
+--------------------------------------------------------------------------*/
+#home .logo { background:url(/images/logo-cotw.gif) 0 0; }
+#home #primary { background:url(/images/dotty-home.gif) repeat-x 0 0; }
+
+
+
+/*'ODD'
+--------------------------------------------------------------------------*/
+#odd .logo { background:url(/images/logo-cotw.gif) 0 0; }
+#odd #primary { background:url(/images/dotty-home.gif) repeat-x 0 0; }
+#odd #secondary ul { border-bottom-color:#bdb4a8; }
+
+#odd h1 em,
+#odd h2,
+#odd #secondary li a:hover,
+#odd #secondary li a.active,
+#odd .text-content p a:hover,
+#odd .text-content h3 a:hover,
+#odd .text-content footer,
+#odd .text-content footer a,
+#odd .text-content span,
+#odd .text-content .anchor-links li a:hover,
+#odd .right-col p a:hover,
+#odd .right-col .cross-link p a:hover,
+#odd .back-to-top a:hover {
+	color:#bdb4a8;
+}
+
+#odd #secondary li a {
+	color:#2b2926;
+}
+
+#odd .profile-info .artist-info li a { color:#333; }
+
+#odd .text-content a:hover,
+#odd .right-col .cross-link {
+	border-color:#bdb4a8;
+}
+
+#odd .text-content #facebook-comment { background:url(/images/comment-2.gif) 0 8px no-repeat; }
+
+
+
+/*Art
+--------------------------------------------------------------------------*/
+#art .logo { background:url(/images/logo-cotw-art.gif) 0 0; }
+#art #primary { background:url(/images/dotty-art.gif) repeat-x 0 0; }
+#art #secondary ul { border-bottom-color:#b73b05; }
+#art .view-exhibit { background-image:url(/images/click-here-art.gif); }
+#art .temp-banner { background:url(/images/banners/sponsor-art.jpg) 0 0 no-repeat; }
+
+#art h1 em,
+#art h2,
+#art #secondary li a:hover,
+#art #secondary li a.active,
+#art .text-content p a:hover,
+#art #overview-content p a:hover,
+#art #overview-content li a:hover,
+#art .text-content h3 a:hover,
+#art .text-content h4 a:hover,
+#art .text-content footer,
+#art .text-content span,
+#art .text-content .anchor-links li a:hover,
+#art .right-col p a:hover,
+#art .right-col .cross-link p a:hover,
+#art .back-to-top a:hover,
+#art .profile-info h3,
+#art .profile-info .artist-info li,
+#art .profile-info li a,
+#art .profile-info p a:hover,
+#art .next-prev li em a,
+#art #profile blockquote cite a:hover,
+#art #profile .profile-info .tweet-feed li a:hover {
+	color:#b73b05;
+}
+
+#art #secondary li a {
+	color:#4c1d08;
+}
+
+#art .profile-info .artist-info li a { color:#333; }
+
+#art .text-content a:hover,
+#art .right-col .cross-link,
+#art .profile-info p a:hover {
+	border-color:#b73b05;
+}
+
+#art .text-content #comment { background:url(/images/idea-art.gif) 0 8px no-repeat; }
+#art .text-content #facebook-comment { background:url(/images/comment-2.gif) 0 8px no-repeat; }
+
+
+
+/*PHOTOS
+--------------------------------------------------------------------------*/
+#photos .logo { background:url(/images/logo-cotw-photos.gif) 0 0; }
+#photos #primary { background:url(/images/dotty-photos.gif) repeat-x 0 0; }
+#photos #secondary ul { border-bottom-color:#3f94d6; }
+#photos .view-exhibit { background-image:url(/images/click-here-photo.gif); }
+#photos .temp-banner { background:url(/images/banners/sponsor-photo.jpg) 0 0 no-repeat; }
+
+#photos h1 em,
+#photos h2,
+#photos #secondary li a:hover,
+#photos #secondary li a.active,
+#photos .text-content p a:hover,
+#photos #overview-content p a:hover,
+#photos #overview-content li a:hover,
+#photos .text-content h3 a:hover,
+#photos .text-content h4 a:hover,
+#photos .text-content footer,
+#photos .text-content span,
+#photos .text-content .anchor-links li a:hover,
+#photos .right-col p a:hover,
+#photos .right-col .cross-link p a:hover,
+#photos .back-to-top a:hover,
+#photos .profile-info h3,
+#photos .profile-info .artist-info li,
+#photos .profile-info li a,
+#photos .profile-info p a:hover,
+#photos .next-prev li em a,
+#photos #profile blockquote cite a:hover,
+#photos #profile .profile-info .tweet-feed li a:hover {
+	color:#3f94d6;
+}
+
+#photos #secondary li a {
+	color:#062034;
+}
+
+#photos .profile-info .artist-info li a { color:#333; }
+
+#photos .text-content a:hover,
+#photos .right-col .cross-link,
+#photos .profile-info p a:hover {
+	border-color:#3f94d6;
+}
+
+#photos .text-content #comment { background:url(/images/idea-photos.gif) 0 8px no-repeat; }
+#photos .text-content #facebook-comment { background:url(/images/comment-2.gif) 0 8px no-repeat; }
+
+
+
+/*CULTURE
+--------------------------------------------------------------------------*/
+#culture .logo { background:url(/images/logo-cotw-culture.gif) 0 0; }
+#culture #primary { background:url(/images/dotty-culture.gif) repeat-x 0 0; }
+#culture #secondary ul { border-bottom-color:#db971e; }
+#culture .temp-banner { background:url(/images/banners/sponsor-culture.jpg) 0 0 no-repeat; }
+
+#culture #body h1 em,
+#culture #body h2,
+#culture #secondary li.active,
+#culture #secondary li.active a,
+#culture #secondary li a:hover,
+#culture .text-content p a:hover,
+#culture #overview-content p a:hover,
+#culture #overview-content li a:hover,
+#culture .text-content h3 a:hover,
+#culture .text-content h4 a:hover,
+#culture .text-content footer,
+#culture .text-content span,
+#culture .text-content .anchor-links li a:hover,
+#culture .right-col p a:hover,
+#culture .right-col .cross-link p a:hover,
+#culture .back-to-top a:hover {
+	color:#db971e;
+}
+
+#culture #secondary li a {
+	color:#381e07;
+}
+
+#culture .text-content a:hover,
+#culture .right-col .cross-link {
+	border-color:#db971e;
+}
+
+#culture #secondary li {
+	color:#d6d3d0;
+}
+
+
+
+/*GREEN
+--------------------------------------------------------------------------*/
+#green .logo { background:url(/images/logo-cotw-green.gif) 0 0; }
+#green #primary { background:url(/images/dotty-green.gif) repeat-x 0 0; }
+#green #secondary ul { border-bottom-color:#7f8f38; }
+#green .temp-banner { background:url(/images/banners/sponsor-green.jpg) 0 0 no-repeat; }
+
+#green #body h1 em,
+#green #body h2,
+#green #secondary li a:hover,
+#green #secondary li a.active,
+#green .text-content p a:hover,
+#green .text-content h3 a:hover,
+#green .text-content h4 a,
+#green .text-content footer,
+#green .text-content span,
+#green .text-content .anchor-links li a:hover,
+#green .right-col p a:hover,
+#green .right-col .cross-link p a:hover,
+#green .back-to-top a:hover {
+	color:#7f8f38;
+}
+
+#green #secondary li a {
+	color:#373f0f;
+}
+
+#green .text-content a:hover,
+#green .right-col .cross-link {
+	border-color:#7f8f38;
+}
+
+
+
+/*BLOG
+--------------------------------------------------------------------------*/
+#blog .logo { background:url(/images/logo-cotw-blog.gif) 0 0; }
+#blog #primary { background:url(/images/dotty-blog.gif) repeat-x 0 0; }
+#blog #secondary ul { border-bottom-color:#333; }
+#blog .temp-banner { background:url(/images/banners/sponsor-blog.jpg) 0 0 no-repeat; }
+
+#blog #body h2,
+#blog .right-col p a:hover,
+#blog .right-col .cross-link p a:hover,
+#blog .back-to-top a:hover,
+#blog .blog-content .postdate,
+#blog .blog-content p a:hover {
+	color:#3a5b7a;
+}
+
+#blog #secondary li a {
+	color:#333;
+}
+
+#blog #secondary li a:hover {
+	color:#bdb4a8;
+}
+
+#blog .text-content a:hover,
+#blog .right-col .cross-link {
+	border-color:#3a5b7a;
+}
+
+
+
+/*FORUM
+--------------------------------------------------------------------------*/
+#forum .logo { background:url(/images/logo-cotw-forum.gif) 0 0; }
+#forum #primary { background:url(/images/dotty-forum.gif) repeat-x 0 0; }
+#forum #secondary ul { border-bottom-color:#3a5b7a; }
+#forum .temp-banner { background:url(/images/banners/sponsor-blog.jpg) 0 0 no-repeat; }
+
+#forum #secondary li a:hover,
+#forum #secondary li a.active {
+	color:#000;
+}
+
+#forum #secondary li a {
+	color:#3a5b7a;
+}
+
+#forum .right-col .cross-link {
+	border-color:#3a5b7a;
+}
+
+

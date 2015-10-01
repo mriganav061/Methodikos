@@ -1,0 +1,1 @@
+useradd <span class="re5">-s</span> <span class="sy0">/</span>bin<span class="sy0">/</span><span class="kw2">bash</span> <span class="re5">-m</span> <span class="re5">-d</span> <span class="sy0">/</span>home<span class="sy0">/</span>hadoop hadoop

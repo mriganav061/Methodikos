@@ -1,0 +1,22 @@
+<div id="report-window" style='font-size:13px'>
+	<div>Analysis Report</div>
+	<div id="report-window-content">
+		<fieldset style="margin-bottom:5px"><legend>Summary</legend>
+		<table class='hor-minimalist-b'>
+			<tbody>
+			<tr><td>Year</td><td><%= analysis.BeginYear %>-<%= analysis.EndYear %></td></tr>
+			<tr><td>District</td><td><%= analysis.District %></td></tr>
+			<tr><td>Total Lane-Miles</td><td><%= analysis.TotalLaneMiles %></td></tr>
+			<tr><td>Total Number of Management Section</td><td><%= analysis.TotalSegments %></td></tr>
+			<tr><td>Total 4-Year Budget Available (million)</td><td><%= analysis.TotalBudget %></td></tr>
+			</tbody>
+		</table>
+		</fieldset>
+		<fieldset><legend>Pavement Management Plan (PMP)</legend>
+		<div id='report-type-grid'></div>
+	    </fieldset>
+		<div style="float: right; margin-top: 10px;">
+			<input type="button" id="report-window-ok" value="OK"/>
+		</div>
+	</div>
+</div>

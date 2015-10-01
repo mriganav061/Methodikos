@@ -1,0 +1,40 @@
+<div id="ahp-window" style='font-size:13px'>
+	<div>Set AHP Weights</div>
+	<div id="ahp-window-content">
+		<form id="ahp-form" action="./">
+		<fieldset><legend>Weight Allocation:</legend>
+	    <div class='window-row'>
+	        <label style='color:blue;text-decoration: underline;'>
+	        	<a href='#' id='btn-pcc-detail-window'>Pavement Current Condition:</a></label>
+	        <div id='ratio-pcc'></div>
+	    </div>
+	    <div class='window-row'>
+	        <label style='color:blue;text-decoration: underline;'>
+	        	<a href='#' id='btn-ctv-detail-window'>Current Traffic Volumn:</a></label>
+	        <div id='ratio-ctv'></div>
+	    </div>	    
+	    <div class='window-row'>
+	        <label>Initial Cost:</label>
+	        <div id='ratio-ic'></div>
+	    </div>	    
+	    <div class='window-row'>
+	        <label>Long Term Performance Benefit:</label>
+	        <div id='ratio-ltpb'></div>
+	    </div>
+	    <div class='window-row'>
+	        <label>Life Cycle Cost:</label>
+	        <div id='ratio-lcc'></div>
+	    </div>
+	    <div class='window-row'>
+	        <label>Total:</label>
+	        <input type='text' style='text-align:right' readonly id="ratio-total"></input>
+	    </div>
+	    </fieldset>
+		<div style="float: right; margin-top: 10px;">
+			<input type="button" id="ahp-window-restore" value="Set to Default" />
+			<input type="button" id="ahp-window-ok" value="Save" />
+			<input type="button" id="ahp-window-cancel" value="Cancel" />
+		</div>
+		</form>
+	</div>
+</div>

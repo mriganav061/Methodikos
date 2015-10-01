@@ -1,0 +1,4 @@
+$scope.wizardOpt = {
+  stepTitles: [&quot;Step1&quot;, &quot;Step2&quot;, &quot;Step3&quot;],
+  stepForms: [&quot;template.for.step1.html&quot;, &quot;template.for.step2.html&quot;, &quot;template.for.step3.html&quot;]
+}

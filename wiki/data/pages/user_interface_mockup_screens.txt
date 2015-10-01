@@ -1,0 +1,10 @@
+===== User Interface Mockup Screens =====
+
+Home Page:                        {{:methodikos_homepage.jpg?400|}}
+
+
+Login/Sign up Page:                        {{:Login Page.jpg?400|}}
+
+Client Page:                        {{:Client Page-City of Anywhere.jpg?400|}}
+
+Client Pavement Page:                        {{:Client Pavement Page.jpg?400|}}

@@ -1,0 +1,110 @@
+
+<h1 class="sectionedit1" id="local_dns_ntp_server">Local DNS/NTP Server</h1>
+<div class="level1">
+
+<p>
+EC2 instances can be started and stopped on demand; we don&#039;t need to pay for stopped instances. But, <strong>restarting an EC2 instance will change the IP address of the instance</strong>, which makes it difficult to run HBase. We can resolve this issue by running a <abbr title="Domain Name System">DNS</abbr> server to provide a name service to all EC2 instances in our HBase cluster. We can update name records on the <abbr title="Domain Name System">DNS</abbr> server every time other EC2 instances are restarted.
+</p>
+
+</div>
+<!-- EDIT1 SECTION "Local DNS/NTP Server" [1-462] -->
+<h2 class="sectionedit2" id="local_domain_name_server_config">Local Domain Name Server Config</h2>
+<div class="level2">
+<pre class="code">CONFIGURE BIND9
+We put all bind9 configuration files under conf/bind.
+To configure bind9 on Amazon EC2,
+  - Replace your /etc/bind/named.conf.local and /etc/bind/named.conf.options with the same files under conf/bind.
+  - Put zone files (db.hbase-admin-cookbook.com &amp; db.10) under /var/lib/bind
+  - Generate your secret key
+    $ dnssec-keygen -a HMAC-MD5 -b 512 -n USER your.domain.com.
+    this will create two files like this:
+      Kuser.hbase-admin-cookbook.com.+157+44141.key
+      Kuser.hbase-admin-cookbook.com.+157+44141.private
+    Replace secret key of named.conf.local to the content of generated private key.
+  - Change domain name to your domain name for all the configuration files
+  - Change IP of DNS server to your server address
+  - Change forwarder address to address of DNS of your EC2 region
+  - Restart bind9 by typing /etc/init.d/bind9 restart
+    You must increment the serial number every time you make changes to the zone file.</pre>
+
+</div>
+<!-- EDIT2 SECTION "Local Domain Name Server Config" [463-1494] -->
+<h2 class="sectionedit3" id="ntp_config">NTP Config</h2>
+<div class="level2">
+<pre class="code">CONFIGURE NTP
+We put all NTP configuration files under conf/ntp.
+To configure NTP server on Amazon EC2
+  - Use ntp.conf.server as template
+  - Replace NTP servers to public NTP servers of your location
+  - Put ntp.conf.server as /etc/ntp.conf
+  - Restart ntp daemon
+    /etc/init.d/ntp restart</pre>
+<pre class="code">To configure NTP client on Amazon EC2
+  - Use ntp.conf.client as template
+  - Replace server setting to IP address of your NTP server
+  - Replace restrict setting to IP address of your NTP server
+  - Put ntp.conf.client as /etc/ntp.conf
+  - Restart ntp daemon
+    /etc/init.d/ntp restart
+    </pre>
+
+</div>
+<!-- EDIT3 SECTION "NTP Config" [1495-2137] -->
+<h2 class="sectionedit4" id="what_needs_to_be_done_with_new_instance">What needs to be done with new instance</h2>
+<div class="level2">
+<ol>
+<li class="level1"><div class="li"> NTP client setup and setting NTP server IP on netp.conf.client</div>
+</li>
+<li class="level1"><div class="li"> <abbr title="Domain Name System">DNS</abbr> setup</div>
+<ol>
+<li class="level2"><div class="li"> /root/bin contains following shell script.</div>
+</li>
+<li class="level2"><div class="li"> <a href="https://github.com/uprush/hac-book/blob/master/1-setting-up-hbase-cluster/script/ec2-hostname.sh" class="urlextern" title="https://github.com/uprush/hac-book/blob/master/1-setting-up-hbase-cluster/script/ec2-hostname.sh"  rel="nofollow">https://github.com/uprush/hac-book/blob/master/1-setting-up-hbase-cluster/script/ec2-hostname.sh</a></div>
+</li>
+<li class="level2"><div class="li"> /root/etc contains dnskey</div>
+</li>
+</ol>
+</li>
+<li class="level1"><div class="li"> Master needs to register openssh formatted private key for passphrase-less ssh communication with slaves.</div>
+</li>
+<li class="level1"><div class="li"> /etc/dhcp/dhclient.conf </div>
+</li>
+</ol>
+
+</div>
+<!-- EDIT4 SECTION "What needs to be done with new instance" [2138-2595] -->
+<h2 class="sectionedit5" id="what_needs_to_be_done_when_all_instances_are_restarted">What needs to be done when all instances are restarted</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT5 SECTION "What needs to be done when all instances are restarted" [2596-2662] -->
+<h3 class="sectionedit6" id="ntp_dns_server">NTP/DNS Server</h3>
+<div class="level3">
+<ol>
+<li class="level1"><div class="li"> Change dns ns1 server ip at /var/lib/bind/db.pmp-hbase.com</div>
+</li>
+<li class="level1"><div class="li"> Restart bind9 service after all changes are made at dns clients in the cluster.</div>
+</li>
+</ol>
+
+</div>
+<!-- EDIT6 SECTION "NTP/DNS Server" [2663-2834] -->
+<h3 class="sectionedit7" id="all_other">All other</h3>
+<div class="level3">
+<ol>
+<li class="level1"><div class="li"> Change dns ip at /etc/dhcp/dhclient.conf</div>
+</li>
+<li class="level1"><div class="li"> Change dns ip at /root/bin/ec2-hostname.sh</div>
+</li>
+<li class="level1"><div class="li"> Change ntp server ip at /etc/ntp.conf</div>
+</li>
+<li class="level1"><div class="li"> sync time: ntpudpate -d &#039;server ip&#039;</div>
+</li>
+<li class="level1"><div class="li"> check time: ntpq -p</div>
+</li>
+<li class="level1"><div class="li"> restart or execute: sh ec2-hostname.sh</div>
+</li>
+</ol>
+
+</div>
+<!-- EDIT7 SECTION "All other" [2835-] -->

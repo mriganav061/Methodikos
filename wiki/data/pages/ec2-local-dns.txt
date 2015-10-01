@@ -1,0 +1,61 @@
+====== Local DNS/NTP Server ======
+EC2 instances can be started and stopped on demand; we don't need to pay for stopped instances. But, **restarting an EC2 instance will change the IP address of the instance**, which makes it difficult to run HBase. We can resolve this issue by running a DNS server to provide a name service to all EC2 instances in our HBase cluster. We can update name records on the DNS server every time other EC2 instances are restarted.
+
+
+===== Local Domain Name Server Config =====
+  CONFIGURE BIND9
+  We put all bind9 configuration files under conf/bind.
+  To configure bind9 on Amazon EC2,
+    - Replace your /etc/bind/named.conf.local and /etc/bind/named.conf.options with the same files under conf/bind.
+    - Put zone files (db.hbase-admin-cookbook.com & db.10) under /var/lib/bind
+    - Generate your secret key
+      $ dnssec-keygen -a HMAC-MD5 -b 512 -n USER your.domain.com.
+      this will create two files like this:
+        Kuser.hbase-admin-cookbook.com.+157+44141.key
+        Kuser.hbase-admin-cookbook.com.+157+44141.private
+      Replace secret key of named.conf.local to the content of generated private key.
+    - Change domain name to your domain name for all the configuration files
+    - Change IP of DNS server to your server address
+    - Change forwarder address to address of DNS of your EC2 region
+    - Restart bind9 by typing /etc/init.d/bind9 restart
+      You must increment the serial number every time you make changes to the zone file.
+
+===== NTP Config =====
+  CONFIGURE NTP
+  We put all NTP configuration files under conf/ntp.
+  To configure NTP server on Amazon EC2
+    - Use ntp.conf.server as template
+    - Replace NTP servers to public NTP servers of your location
+    - Put ntp.conf.server as /etc/ntp.conf
+    - Restart ntp daemon
+      /etc/init.d/ntp restart
+
+  To configure NTP client on Amazon EC2
+    - Use ntp.conf.client as template
+    - Replace server setting to IP address of your NTP server
+    - Replace restrict setting to IP address of your NTP server
+    - Put ntp.conf.client as /etc/ntp.conf
+    - Restart ntp daemon
+      /etc/init.d/ntp restart
+      
+===== What needs to be done with new instance =====
+  - NTP client setup and setting NTP server IP on netp.conf.client
+  - DNS setup
+    - /root/bin contains following shell script.
+    - https://github.com/uprush/hac-book/blob/master/1-setting-up-hbase-cluster/script/ec2-hostname.sh
+    - /root/etc contains dnskey
+  - Master needs to register openssh formatted private key for passphrase-less ssh communication with slaves.
+  - /etc/dhcp/dhclient.conf 
+
+
+===== What needs to be done when all instances are restarted =====
+==== NTP/DNS Server ====
+  - Change dns ns1 server ip at /var/lib/bind/db.pmp-hbase.com
+  - Restart bind9 service after all changes are made at dns clients in the cluster.
+==== All other ====
+  - Change dns ip at /etc/dhcp/dhclient.conf
+  - Change dns ip at /root/bin/ec2-hostname.sh
+  - Change ntp server ip at /etc/ntp.conf
+  - sync time: ntpudpate -d 'server ip'
+  - check time: ntpq -p
+  - restart or execute: sh ec2-hostname.sh

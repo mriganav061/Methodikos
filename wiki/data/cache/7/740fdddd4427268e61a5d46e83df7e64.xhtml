@@ -1,0 +1,78 @@
+
+<p>
+<pre class="code php">        <span class="co4">/**
+	 * PRELIMINARY GROUPING
+	 */</span>
+	<span class="kw2">private</span> <span class="kw2">function</span> grouping<span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="br0">&#123;</span>
+		<span class="co1">// GET SECTIONS</span>
+		<span class="re0">$sections</span> <span class="sy0">=</span> <span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">sections</span><span class="sy0">;</span>
+&nbsp;
+		<span class="co1">// IF THE NUMBER OF SECTIONS IS ZERO, WE ARE DONE</span>
+		<span class="kw1">if</span> <span class="br0">&#40;</span><a href="http://www.php.net/count"><span class="kw3">count</span></a><span class="br0">&#40;</span><span class="re0">$sections</span><span class="br0">&#41;</span> <span class="sy0">==</span> <span class="nu0">0</span><span class="br0">&#41;</span>
+			<span class="kw1">return</span><span class="sy0">;</span>
+&nbsp;
+		<span class="co1">// INITIALIZE SOME VARIABLES</span>
+		<span class="re0">$highway</span> <span class="sy0">=</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="nu0">0</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'signed_highway_rdbd_id'</span><span class="br0">&#93;</span><span class="sy0">;</span>
+		<span class="re0">$cumLength</span> <span class="sy0">=</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="nu0">0</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'sect_length'</span><span class="br0">&#93;</span><span class="sy0">;</span>
+&nbsp;
+		<span class="co1">// FIRST SECTION'S CUMULATIVE LENGTH</span>
+		<span class="re0">$sections</span><span class="br0">&#91;</span><span class="nu0">0</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'cum_length_beg'</span><span class="br0">&#93;</span> <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">;</span>
+		<span class="re0">$sections</span><span class="br0">&#91;</span><span class="nu0">0</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'cum_length_end'</span><span class="br0">&#93;</span> <span class="sy0">=</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="nu0">0</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'sect_length'</span><span class="br0">&#93;</span><span class="sy0">;</span>
+&nbsp;
+		<span class="co1">// INSERT FIRST SECTION</span>
+		<span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">groups</span> <span class="sy0">=</span> <a href="http://www.php.net/array"><span class="kw3">array</span></a><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="sy0">;</span>
+		<span class="re0">$group</span> <span class="sy0">=</span> <a href="http://www.php.net/array"><span class="kw3">array</span></a><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="sy0">;</span>
+		<a href="http://www.php.net/array_push"><span class="kw3">array_push</span></a><span class="br0">&#40;</span><span class="re0">$group</span><span class="sy0">,</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="nu0">0</span><span class="br0">&#93;</span><span class="br0">&#41;</span><span class="sy0">;</span>
+		<span class="co1">// $this-&gt;print_road($sections, 0);</span>
+&nbsp;
+		<span class="co1">// LOOP START</span>
+		<span class="kw1">for</span> <span class="br0">&#40;</span><span class="re0">$i</span><span class="sy0">=</span><span class="nu0">1</span> <span class="sy0">;</span> <span class="re0">$i</span><span class="sy0">&lt;</span><a href="http://www.php.net/count"><span class="kw3">count</span></a><span class="br0">&#40;</span><span class="re0">$sections</span><span class="br0">&#41;</span> <span class="sy0">;</span> <span class="re0">$i</span><span class="sy0">++</span><span class="br0">&#41;</span> <span class="br0">&#123;</span>
+			<span class="co1">// DETERMINE THE SECTION BELONGS TO THE SAME GROUP</span>
+			<span class="co1">// CRITERIA ARE THE SIGNED HIGHWAY ROADBED ID, CONTINUTIY AND PAVEMENT FAMILY</span>
+			<span class="kw1">if</span> <span class="br0">&#40;</span><span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'signed_highway_rdbd_id'</span><span class="br0">&#93;</span> <span class="sy0">==</span> <span class="re0">$highway</span> <span class="sy0">&amp;&amp;</span>
+					<span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'beg_ref_marker_nbr'</span><span class="br0">&#93;</span> <span class="sy0">==</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="sy0">-</span><span class="nu0">1</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'end_ref_marker_nbr'</span><span class="br0">&#93;</span> <span class="sy0">&amp;&amp;</span>
+&nbsp;
+					<span class="co1">// UNCOMMENT THIS LINE IF OFFSET IS CONSIDERED FOR CONTINUITY</span>
+ 					<span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'beg_ref_marker_disp'</span><span class="br0">&#93;</span> <span class="sy0">==</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="sy0">-</span><span class="nu0">1</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'end_ref_marker_disp'</span><span class="br0">&#93;</span> <span class="sy0">&amp;&amp;</span>
+&nbsp;
+					<span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">same_pvmnt_family</span><span class="br0">&#40;</span><span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="sy0">-</span><span class="nu0">1</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'pvmnt_type_dtl_rd_life_code'</span><span class="br0">&#93;</span><span class="sy0">,</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'pvmnt_type_dtl_rd_life_code'</span><span class="br0">&#93;</span><span class="br0">&#41;</span><span class="br0">&#41;</span> <span class="br0">&#123;</span>
+&nbsp;
+				<span class="co1">// IF IT BELONGS TO THE SAME GROUP, WE GET THE CUMULATIVE LENGTH OF BEGINNING AND ENDING OF THE SECTION</span>
+				<span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'cum_length_beg'</span><span class="br0">&#93;</span> <span class="sy0">=</span> <span class="re0">$cumLength</span><span class="sy0">;</span>
+				<span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'cum_length_end'</span><span class="br0">&#93;</span> <span class="sy0">=</span> <span class="re0">$cumLength</span> <span class="sy0">+</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'sect_length'</span><span class="br0">&#93;</span><span class="sy0">;</span>
+&nbsp;
+				<span class="co1">// UPDATE CUMULATIVE LENGTH VARIABLE</span>
+				<span class="re0">$cumLength</span> <span class="sy0">=</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'cum_length_beg'</span><span class="br0">&#93;</span> <span class="sy0">+</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'sect_length'</span><span class="br0">&#93;</span><span class="sy0">;</span>
+&nbsp;
+				<span class="co1">// INSERT THIS SECTION TO CURRENT GROUP</span>
+				<a href="http://www.php.net/array_push"><span class="kw3">array_push</span></a><span class="br0">&#40;</span><span class="re0">$group</span><span class="sy0">,</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#41;</span><span class="sy0">;</span>
+			<span class="br0">&#125;</span>
+			<span class="kw1">else</span> <span class="br0">&#123;</span>
+				<span class="co1">// IF IT DOESN'T BELONG TO THE SAME GROUP, WE INSERT THE GROUP INTO $GROUPS WITH TOTAL LENGTH OF THE GROUP				</span>
+				<a href="http://www.php.net/array_push"><span class="kw3">array_push</span></a><span class="br0">&#40;</span><span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">groups</span><span class="sy0">,</span> <a href="http://www.php.net/array"><span class="kw3">array</span></a><span class="br0">&#40;</span><span class="st0">&quot;group&quot;</span><span class="sy0">=&gt;</span><span class="re0">$group</span><span class="sy0">,</span> <span class="st0">&quot;total_length_end&quot;</span><span class="sy0">=&gt;</span><span class="re0">$cumLength</span><span class="sy0">,</span> <span class="st0">&quot;total_length_beg&quot;</span><span class="sy0">=&gt;</span><span class="re0">$cumLength</span><span class="sy0">-</span><span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="sy0">-</span><span class="nu0">1</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'sect_length'</span><span class="br0">&#93;</span><span class="br0">&#41;</span><span class="br0">&#41;</span><span class="sy0">;</span>
+&nbsp;
+				<span class="co1">// CLEAR GROUP VARIABLE</span>
+				<a href="http://www.php.net/unset"><span class="kw3">unset</span></a><span class="br0">&#40;</span><span class="re0">$group</span><span class="br0">&#41;</span><span class="sy0">;</span> <span class="re0">$group</span> <span class="sy0">=</span> <a href="http://www.php.net/array"><span class="kw3">array</span></a><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="sy0">;</span>
+&nbsp;
+				<span class="co1">// NEW GROUP STARTS</span>
+				<span class="co1">// UPDATE SOME VARIABLES</span>
+				<span class="re0">$cumLength</span> <span class="sy0">=</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'sect_length'</span><span class="br0">&#93;</span><span class="sy0">;</span>
+				<span class="re0">$highway</span> <span class="sy0">=</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'signed_highway_rdbd_id'</span><span class="br0">&#93;</span><span class="sy0">;</span>
+&nbsp;
+				<span class="co1">// THIS GROUP'S FIRST SECTIONS'S CULMULTIVE LENGTH</span>
+				<span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'cum_length_beg'</span><span class="br0">&#93;</span> <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">;</span>
+				<span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'cum_length_end'</span><span class="br0">&#93;</span> <span class="sy0">=</span> <span class="re0">$cumLength</span><span class="sy0">;</span>
+&nbsp;
+				<span class="co1">// INSERT THE FIRST SECTION TO THE GROUP</span>
+				<a href="http://www.php.net/array_push"><span class="kw3">array_push</span></a><span class="br0">&#40;</span><span class="re0">$group</span><span class="sy0">,</span> <span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="br0">&#93;</span><span class="br0">&#41;</span><span class="sy0">;</span>
+&nbsp;
+		<span class="co1">//		$this-&gt;print_road($sections, $i);				</span>
+			<span class="br0">&#125;</span>
+		<span class="br0">&#125;</span>
+		<a href="http://www.php.net/array_push"><span class="kw3">array_push</span></a><span class="br0">&#40;</span><span class="re0">$this</span><span class="sy0">-&gt;</span><span class="me1">groups</span><span class="sy0">,</span> <a href="http://www.php.net/array"><span class="kw3">array</span></a><span class="br0">&#40;</span><span class="st0">&quot;group&quot;</span><span class="sy0">=&gt;</span><span class="re0">$group</span><span class="sy0">,</span> <span class="st0">&quot;total_length_end&quot;</span><span class="sy0">=&gt;</span><span class="re0">$cumLength</span><span class="sy0">,</span> <span class="st0">&quot;total_length_beg&quot;</span><span class="sy0">=&gt;</span><span class="re0">$cumLength</span><span class="sy0">-</span><span class="re0">$sections</span><span class="br0">&#91;</span><span class="re0">$i</span><span class="sy0">-</span><span class="nu0">1</span><span class="br0">&#93;</span><span class="br0">&#91;</span><span class="st_h">'sect_length'</span><span class="br0">&#93;</span><span class="br0">&#41;</span><span class="br0">&#41;</span><span class="sy0">;</span>
+&nbsp;
+		<a href="http://www.php.net/unset"><span class="kw3">unset</span></a><span class="br0">&#40;</span><span class="re0">$group</span><span class="br0">&#41;</span><span class="sy0">;</span>
+		<a href="http://www.php.net/unset"><span class="kw3">unset</span></a><span class="br0">&#40;</span><span class="re0">$segments</span><span class="br0">&#41;</span><span class="sy0">;</span>
+	<span class="br0">&#125;</span></pre>
+
+</p>

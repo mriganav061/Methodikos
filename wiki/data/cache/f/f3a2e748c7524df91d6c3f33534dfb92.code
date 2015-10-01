@@ -1,0 +1,1 @@
+<span class="kw2">ssh-keygen</span> <span class="re5">-t</span> rsa <span class="re5">-N</span> <span class="st0">&quot;&quot;</span>

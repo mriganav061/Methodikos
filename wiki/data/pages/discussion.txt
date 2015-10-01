@@ -1,0 +1,31 @@
+====== Discussion Note =======
+===== 7/31/2013 =====
+  - Start with the easy scenario in which we assume that the user has the data that contains all the necessary information to perform the analysis. In this case, we assume no segmentation and user-defined values such as Forced or Visual assessment will not be needed.
+  - Importing one single .csv, .xls, or .mdb using Wizard control
+    * Only key columns will be added and if the file doesn't contain enough information, the system will ask the user to provide another file.
+  - Considering first 'Deer Package'
+    * Allow exporting .pdf or some other file format that can be printable but excel format will be allowed for high level packages.
+  - High level package will accept additional columns that enables other types of analysis
+  - Keep followings in mind.
+    * Sharing pictures and videos
+    * Different analysis type with different package (e.g. Pavement analysis with Deer and Bridge with Bear)
+    * Console management
+    * Sharing modeling curve (parameters) with other people in the group
+    * Front Page and Secured Page
+
+
+===== 7/29/2013 =====
+
+  - User choose the region in where he wants to perform preventative management analysis
+  - Then User provides data in any form such as .csv, .xls, .mdb, ... Or the system generates the data (hard part)
+  - If the user provides the data, the system needs to recognize the file and give the user options.
+     * This can be built with Wizard flow. For example, if the user uploaded .mdb file for the data. Then, system will recognize the tables in it and extract related tables and columns and show them to the user. The user will choose columns that indicating, for example, Highway Id or Condition Score from the UI. Based on user's provided information the system extracts the data and put them in the database for analysis ready.
+     * Dr. Gharaibeh said first we inspect the data that user provides and estimate the effort or man hours to process them into our system. The estimated effort or price will be informed to the customer.
+  - System generates the data by performing some kind of image processing on imaginary map such as google map. 
+     - Based on user's selected region, we need to extract road images from Google Earth without loosing geographical coordination information.
+     - Do some image processing on the images. The input image will be a set of sections from original image. 
+     - Segmenting the cracks or seal coats and counting them and scoring the section.
+
+
+----
+Go back to [[::wiki:welcome|Front Page]]

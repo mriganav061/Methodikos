@@ -1,0 +1,13 @@
+Version 0.7 --------------------------------------------------------------------
+Integrate latest Supa Applet (v0.6)
+Make Sure this thing works with Dokuwiki "Rincewind". If it does not work: disable the supa plugin via the plugin manager, save plugin-config, enable supa plugin, save plugin-config
+Internal stuff: Do some Javascript linting
+Version 0.6a -------------------------------------------------------------------
+Reintroduce some stub functions to make upgrade less painfull
+Version 0.6 --------------------------------------------------------------------
+Adapt to latest (and hopefully later) dokuwiki versions => no source
+modifications required
+Version 0.5 --------------------------------------------------------------------
+Support google chrome browser (should also fix Apple Mac clients)
+Better support Internet Explorer when detecting if applet has finished loading
+

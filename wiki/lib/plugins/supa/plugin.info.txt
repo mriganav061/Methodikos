@@ -1,0 +1,7 @@
+base   supa
+author Christoph Linder (HonoluluHenk)
+email  supa@sourceforge.net
+date   2011-12-04
+name   SUPA Screenshot-UPload-Applet (0.7)
+desc   Easy upload of images from the local cliboard, e.g. from a screenshot
+url    http://www.dokuwiki.org/plugin:supa

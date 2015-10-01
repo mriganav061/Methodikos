@@ -1,0 +1,8 @@
+====== Hadoop, HBase Ports ======
+^ Role ^ Port ^ Comment ^
+| NameNode | master:50070 | Information about the name node and the health of the distributed file system |
+| DataNode | slave1:50075 | TBC |
+| JobTracker | master:50030 | Information about submitted and queued jobs |
+| TaskTracker | slave1:50060 | Information about tasks that are submitted and queued |
+| HMaster | master:60000 | Information about HBase Master Configuration and RegionServers |
+| HRegionServer | slave1:60030 | Information about HBase RegionServer |

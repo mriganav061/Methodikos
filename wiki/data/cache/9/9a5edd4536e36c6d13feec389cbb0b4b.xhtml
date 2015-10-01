@@ -1,0 +1,160 @@
+
+<h1 class="sectionedit1" id="database_schema_modeling">Database Schema Modeling</h1>
+<div class="level1">
+
+<p>
+Before importing the data into the database, we need to design database schema so that table structure is optimized to do <a href="/wiki/doku.php?id=methodikos-business-operation" class="wikilink1" title="methodikos-business-operation">business operations</a>.
+</p>
+
+<p>
+Add entity diagram for big picture <img src="/wiki/lib/images/smileys/todo.gif" class="icon" alt="TODO" />
+</p>
+
+</div>
+<!-- EDIT1 SECTION "Database Schema Modeling" [1-259] -->
+<h2 class="sectionedit2" id="user">User</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT2 SECTION "User" [260-277] -->
+<h3 class="sectionedit3" id="columns">Columns</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> userId</div>
+</li>
+<li class="level1"><div class="li"> name</div>
+</li>
+<li class="level1"><div class="li"> address</div>
+</li>
+<li class="level1"><div class="li"> email</div>
+</li>
+<li class="level1"><div class="li"> group</div>
+</li>
+<li class="level1"><div class="li"> role</div>
+</li>
+<li class="level1"><div class="li"> …</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT3 SECTION "Columns" [278-364] -->
+<h3 class="sectionedit4" id="domain_questions">Domain Questions</h3>
+<div class="level3">
+
+<p>
+Define what questions are we want to answer using this table
+</p>
+<ol>
+<li class="level1"><div class="li"> </div>
+</li>
+</ol>
+
+</div>
+<!-- EDIT4 SECTION "Domain Questions" [365-457] -->
+<h2 class="sectionedit5" id="group">Group</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT5 SECTION "Group" [458-476] -->
+<h3 class="sectionedit6" id="columns1">Columns</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> groupId</div>
+</li>
+<li class="level1"><div class="li"> name</div>
+</li>
+<li class="level1"><div class="li"> members - contains user id that belongs to this group</div>
+</li>
+<li class="level1"><div class="li"> …</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT6 SECTION "Columns" [477-581] -->
+<h3 class="sectionedit7" id="domain_questions1">Domain Questions</h3>
+<div class="level3">
+
+<p>
+Define what questions are we want to answer using this table
+</p>
+<ol>
+<li class="level1"><div class="li"> …</div>
+</li>
+</ol>
+
+</div>
+<!-- EDIT7 SECTION "Domain Questions" [582-678] -->
+<h2 class="sectionedit8" id="roadsection">RoadSection</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT8 SECTION "RoadSection" [679-703] -->
+<h3 class="sectionedit9" id="columns2">Columns</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> sectionId</div>
+</li>
+<li class="level1"><div class="li"> ownerId</div>
+</li>
+<li class="level1"><div class="li"> roadWayName: Roadway Name</div>
+</li>
+<li class="level1"><div class="li"> …</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT9 SECTION "Columns" [704-785] -->
+<h3 class="sectionedit10" id="domain_questions2">Domain Questions</h3>
+<div class="level3">
+
+<p>
+Define what questions are we want to answer using this table
+</p>
+<ol>
+<li class="level1"><div class="li"> …</div>
+</li>
+</ol>
+
+</div>
+<!-- EDIT10 SECTION "Domain Questions" [786-882] -->
+<h2 class="sectionedit11" id="roadsegment">RoadSegment</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT11 SECTION "RoadSegment" [883-907] -->
+<h2 class="sectionedit12" id="dataset">DataSet</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT12 SECTION "DataSet" [908-928] -->
+<h2 class="sectionedit13" id="datapackage">DataPackage</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT13 SECTION "DataPackage" [929-952] -->
+<h3 class="sectionedit14" id="column">Column</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> pkgLevel: {Deer, Seal, Bear}</div>
+</li>
+<li class="level1"><div class="li"> pkgType: {Pavement, Bridges, Bike Path &amp; Side Walks}</div>
+</li>
+<li class="level1"><div class="li"> ownerId</div>
+</li>
+<li class="level1"><div class="li"> sharedBy</div>
+</li>
+<li class="level1"><div class="li"> includes: dataSetId</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT14 SECTION "Column" [953-1109] -->
+<h2 class="sectionedit15" id="analysismodel">AnalysisModel</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> …</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT15 SECTION "AnalysisModel" [1110-] -->

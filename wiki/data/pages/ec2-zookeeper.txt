@@ -1,0 +1,20 @@
+====== Zookeeper ======
+
+  - Create Directory at /usr/local/zookeeper
+  - Download zookeeper from http://mirrors.sonic.net/apache/zookeeper/
+  - Untar zookeeper file and create symbolic link
+  - Create directories for ZooKeeper to store its snapshot and transaction log:
+    * /usr/local/zookeeper/var/data
+    * /usr/local/zookeeper/var/datalog
+  - Create current/conf/java.env
+<code bash>  
+JAVA_HOME=/usr/local/jdk1.6
+export PATH=$JAVA_HOME/bin:$PATH
+</code>
+  - Copy the sample ZooKeeper setting file, and make the following changes to set where ZooKeeper should store its data:
+<code bash>
+dataDir=/usr/local/zookeeper/var/data
+dataLogDir=/usr/local/zookeeper/var/datalog
+</code>
+  
+  

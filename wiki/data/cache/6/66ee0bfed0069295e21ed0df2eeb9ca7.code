@@ -1,0 +1,4 @@
+<span class="kw2">mkdir</span> ~<span class="sy0">/</span>.ssh
+<span class="kw2">chmod</span> <span class="nu0">700</span> ~<span class="sy0">/</span>.ssh
+<span class="kw3">cd</span> ~<span class="sy0">/</span>.ssh
+<span class="kw2">cat</span> ~<span class="sy0">/</span>.ssh<span class="sy0">/</span>id_rsa.pub <span class="sy0">&gt;&gt;</span> ~<span class="sy0">/</span>.ssh<span class="sy0">/</span>authorized_keys

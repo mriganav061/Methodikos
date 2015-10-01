@@ -1,0 +1,330 @@
+.main_ui {
+	font: 12px Arial, Helvetica, sans-serif;
+}
+
+#main .heading {
+	padding-top: 8px;
+	font-size: 14px;
+	color: white;
+	margin-bottom: 15px;
+	/*font-weight: bold;*/
+	height: 25px;
+	width: 380px;
+	-moz-border-radius: 15px;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #800000;
+	/*background-color: #F58220;*/
+	/*background-color: #575757;*/
+}
+
+#map-canvas {
+	height: 100%;
+	/*text-align: right;
+	color: #999999;
+	padding-bottom: 11px;*/
+}
+
+.div_loader {
+	background: url(../../Scripts/libs/jqwidgets/resources/ajax-loader.gif)
+		no-repeat center center;
+}
+
+#menu_wrapper {
+	width: 100%;
+	margin: 0 0 0 0;
+	/*padding-bottom: 200px;*/
+	/*background: url('../images/header.png') no-repeat 0 0;*/
+	font: 13px Arial, Helvetica, sans-serif;
+	/*background-position: 0px 32px;*/
+}
+
+#menu {
+	font: 13px Arial, Helvetica, sans-serif;
+}
+
+#nav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/*--used in drop down menu items--*/
+.menuseprator {
+	border-bottom: 1px solid #ddd;
+	margin: 10px 0 10px 0;
+}
+
+/*--for showing down arrow in drop down menu item--*/
+.arrowdown {color #eee;
+	font-size: 0.5em;
+}
+
+/*--for the left navigation menu--*/
+.floatleft {
+	float: left;
+}
+
+/*--for the right options navigation menu--*/
+.floatright {
+	float: right;
+}
+
+/*--clear all floating, left and right--*/
+.clear {
+	clear: both;
+}
+/*
+body {
+	height: 100%;
+	width: 100%;
+	background: #fff;
+	font: 12px "Trebuchet MS", Verdana, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+p {
+	text-align: justify;
+	line-height: 120%;
+}
+*/
+#panel {margin-left: -175px;}
+
+#colleft {
+	width: 0px;
+	margin-top: 10px;
+	float: left;
+	overflow: hidden;
+	background: #333;
+	display:none;
+}
+
+#colleft h1 {
+	height: 30px;
+	background-color: #000;
+	color: #eee;
+	padding: 10px 0 0 20px;
+	margin-bottom: 10px;
+}
+
+#colleft ul {
+	margin-bottom: 20px;
+}
+
+#colleft ul li {
+	border-bottom: 1px solid #666;
+	margin: 0 0 0 5px;
+	padding: 0 0 2px 5px;
+}
+
+#colleft #hidePanel {
+	height: 24px;
+	padding: 4px 0 0 72px;
+}
+
+#colleft #hidePanel a {
+	color: #FFF;
+}
+
+#colleft #hidePanel a:hover {
+	color: #999;
+}
+
+#colleft,#showPanel {
+	color: #fff;
+}
+
+#showPanel {
+	position: inherit;
+	z-index: 2;
+	left: 0;
+	float: left;
+	padding-top: 40px;
+	display: block;
+	width: 28px;
+	height: 100px;
+	cursor: pointer;
+}
+
+#showPanel span {
+	display: block;
+	font-size: 24px;
+	height: 30px;
+	margin-top: 20px;
+	padding: 10px 0 10px 10px;
+	width: 20px;
+	background: #333;
+}
+
+#colright {
+	padding-top: 10px;
+	color: #1c1c1c;
+	margin-left: 200px;
+}
+
+.window-row label {
+	font-size: 100%;
+}
+
+.window-row label u {
+	font-style: normal;
+	text-decoration: underline;
+}
+
+.window-row {
+	clear: left;
+	display: block;
+	zoom: 1;
+	margin: 5px 0 0 0;
+}
+
+fieldset {
+	clear: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #C1C1C1;
+	margin: 0 0 0 0px;
+	padding: 0 0px 8px 5px;
+	width: 99%;
+}
+
+fieldset legend {
+	font-size: 100%;
+	padding: 0 3px 0 9px;
+	font-weight: bold;
+}
+
+fieldset a,fieldset a:visited {
+	color: blue;
+	text-decoration: underline;
+	outline: 0;
+}
+
+fieldset a:hover,fieldset a:focus {
+	color: blue;
+}
+
+.window-row label {
+	display: block;
+	float: left;
+	width: 200px;
+	padding: 3px 5px;
+	margin: 0 0 5px 0;
+	text-align: right;
+}
+
+.window-row div {
+	padding: 0px 0px;
+}
+
+.window-row small {
+	display: block;
+	margin: 5px 0 5px 210px;
+	padding: 1px 3px;
+	font-size: 88%;
+	zoom: 1;
+}
+
+#topmenu ul {
+	padding: 0;
+	margin: 0;
+	font: 1em sans-serif;
+}
+
+#topmenu ul li {
+	list-style-type: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#topmenu {
+	margin-top: 5px;
+	height: 35px;
+}
+
+#topmenu ul li a:hover {
+	background: #080000;
+}
+
+#topmenu ul ul {
+	display: none;
+}
+
+#topmenu ul li:hover>ul {
+	display: block;
+	position: absolute;
+	top: -1px;
+	left: 100%;
+}
+
+#topmenu li a {
+	display: inline-block;
+	padding: 5px 7px;
+	text-decoration: none;
+}
+
+#topmenu li.sub>a { /*	font-weight: bold;*/
+	
+}
+
+#topmenu ul>li:hover>ul {
+	width: 10em;
+	top: 2em;
+	left: -3px;
+}
+
+.info  {
+	border: 1px solid;
+	padding: 15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	color: #00529B;
+	background-color: #BDE5F8;
+	word-wrap: break-word;
+	background-image: url('../images/info.png');
+}
+
+.hor-minimalist-b
+{
+	font-family: "Arial,Helvetica,sans-serif"; /*"Lucida Sans Unicode", "Lucida Grande", "Sans-Serif";*/
+	font-size: 12px;
+	background: #fff;
+	margin-left:15px;
+	width: 350px;
+	border-collapse: collapse;
+	text-align: left;
+}
+.hor-minimalist-b th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color:  rgb(0, 0, 0);/*#669;*/
+	padding: 10px 8px;
+	border-bottom: 2px solid rgb(0, 0, 0);/*#6678b1;*/
+}
+.hor-minimalist-b td
+{
+	border-bottom: 1px solid #ccc;
+	color: rgb(0, 0, 0);/*#669;*/
+	padding: 6px 8px;
+}
+.hor-minimalist-b tbody tr:hover td
+{
+	color:  rgb(0, 0, 0);/*#669;*/
+}
+
+.inner-hor-minimalist-b td
+{
+	border-bottom: 0px solid #ccc;
+	color: rgb(0, 0, 0);/*#669;*/
+	text-align:right;
+	padding: 6px 8px;
+}
+/*Block headline*/
+
+
+

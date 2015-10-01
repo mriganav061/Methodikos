@@ -1,0 +1,4 @@
+====== Supa Plugin ======
+This plugin allows you to upload images directly from the clipboard. No need
+to save to a file first anymore.
+

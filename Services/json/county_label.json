@@ -1,0 +1,512 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "id":"1", "properties": { "Name": "Anderson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Anderson <\/div>" , "centroid":{"x":"31.7941704070","y":"-95.6616457103"}}}
+,
+{ "type": "Feature", "id":"2", "properties": { "Name": "Andrews", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Andrews <\/div>" , "centroid":{"x":"32.3053072616","y":"-102.6378542862"}}}
+,
+{ "type": "Feature", "id":"3", "properties": { "Name": "Angelina", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Angelina <\/div>" , "centroid":{"x":"31.2766399461","y":"-94.5674468865"}}}
+,
+{ "type": "Feature", "id":"4", "properties": { "Name": "Aransas", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Aransas <\/div>" , "centroid":{"x":"28.2205659395","y":"-96.9578421253"}}}
+,
+{ "type": "Feature", "id":"5", "properties": { "Name": "Archer", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Archer <\/div>" , "centroid":{"x":"33.6157649603","y":"-98.6875242701"}}}
+,
+{ "type": "Feature", "id":"6", "properties": { "Name": "Armstrong", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Armstrong <\/div>" , "centroid":{"x":"34.9656437708","y":"-101.3573958051"}}}
+,
+{ "type": "Feature", "id":"7", "properties": { "Name": "Atascosa", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Atascosa <\/div>" , "centroid":{"x":"28.9316616645","y":"-98.4517574954"}}}
+,
+{ "type": "Feature", "id":"8", "properties": { "Name": "Austin", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Austin <\/div>" , "centroid":{"x":"29.8493728991","y":"-96.3132562630"}}}
+,
+{ "type": "Feature", "id":"9", "properties": { "Name": "Bailey", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Bailey <\/div>" , "centroid":{"x":"34.0688124788","y":"-102.8313489148"}}}
+,
+{ "type": "Feature", "id":"10", "properties": { "Name": "Bandera", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Bandera <\/div>" , "centroid":{"x":"29.7297439672","y":"-99.1911388484"}}}
+,
+{ "type": "Feature", "id":"11", "properties": { "Name": "Bastrop", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Bastrop <\/div>" , "centroid":{"x":"30.1031220647","y":"-97.3366333196"}}}
+,
+{ "type": "Feature", "id":"12", "properties": { "Name": "Baylor", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Baylor <\/div>" , "centroid":{"x":"33.6161337888","y":"-99.2143381776"}}}
+,
+{ "type": "Feature", "id":"13", "properties": { "Name": "Bee", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Bee <\/div>" , "centroid":{"x":"28.4246362842","y":"-97.7326915284"}}}
+,
+{ "type": "Feature", "id":"14", "properties": { "Name": "Bell", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Bell <\/div>" , "centroid":{"x":"31.0362891059","y":"-97.4918917814"}}}
+,
+{ "type": "Feature", "id":"15", "properties": { "Name": "Bexar", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Bexar <\/div>" , "centroid":{"x":"29.4374187999","y":"-98.4621138666"}}}
+,
+{ "type": "Feature", "id":"16", "properties": { "Name": "Blanco", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Blanco <\/div>" , "centroid":{"x":"30.2200541320","y":"-98.3585479096"}}}
+,
+{ "type": "Feature", "id":"17", "properties": { "Name": "Borden", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Borden <\/div>" , "centroid":{"x":"32.7437630721","y":"-101.4323667733"}}}
+,
+{ "type": "Feature", "id":"18", "properties": { "Name": "Bosque", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Bosque <\/div>" , "centroid":{"x":"31.8973640313","y":"-97.6409997432"}}}
+,
+{ "type": "Feature", "id":"19", "properties": { "Name": "Bowie", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Bowie <\/div>" , "centroid":{"x":"33.4764516203","y":"-94.3946997334"}}}
+,
+{ "type": "Feature", "id":"20", "properties": { "Name": "Brazoria", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Brazoria <\/div>" , "centroid":{"x":"29.2139787653","y":"-95.4656484805"}}}
+,
+{ "type": "Feature", "id":"21", "properties": { "Name": "Brazos", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Brazos <\/div>" , "centroid":{"x":"30.6523266845","y":"-96.3410456638"}}}
+,
+{ "type": "Feature", "id":"22", "properties": { "Name": "Brewster", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Brewster <\/div>" , "centroid":{"x":"29.8189426616","y":"-103.0608299988"}}}
+,
+{ "type": "Feature", "id":"23", "properties": { "Name": "Briscoe", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Briscoe <\/div>" , "centroid":{"x":"34.5305391596","y":"-101.2075228630"}}}
+,
+{ "type": "Feature", "id":"24", "properties": { "Name": "Brooks", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Brooks <\/div>" , "centroid":{"x":"27.0231283550","y":"-98.2609881243"}}}
+,
+{ "type": "Feature", "id":"25", "properties": { "Name": "Brown", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Brown <\/div>" , "centroid":{"x":"31.7639988887","y":"-98.9358418610"}}}
+,
+{ "type": "Feature", "id":"26", "properties": { "Name": "Burleson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Burleson <\/div>" , "centroid":{"x":"30.5131236176","y":"-96.6175742485"}}}
+,
+{ "type": "Feature", "id":"27", "properties": { "Name": "Burnet", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Burnet <\/div>" , "centroid":{"x":"30.7305313008","y":"-98.1440494438"}}}
+,
+{ "type": "Feature", "id":"28", "properties": { "Name": "Caldwell", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Caldwell <\/div>" , "centroid":{"x":"29.8509959591","y":"-97.6159732045"}}}
+,
+{ "type": "Feature", "id":"29", "properties": { "Name": "Calhoun", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Calhoun <\/div>" , "centroid":{"x":"28.5136752780","y":"-96.6662200874"}}}
+,
+{ "type": "Feature", "id":"30", "properties": { "Name": "Callahan", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Callahan <\/div>" , "centroid":{"x":"32.2972532637","y":"-99.3729999835"}}}
+,
+{ "type": "Feature", "id":"31", "properties": { "Name": "Cameron", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Cameron <\/div>" , "centroid":{"x":"26.1244346161","y":"-97.5035440066"}}}
+,
+{ "type": "Feature", "id":"32", "properties": { "Name": "Camp", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Camp <\/div>" , "centroid":{"x":"32.9898549216","y":"-94.9361226640"}}}
+,
+{ "type": "Feature", "id":"33", "properties": { "Name": "Carson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Carson <\/div>" , "centroid":{"x":"35.4032978540","y":"-101.3548168032"}}}
+,
+{ "type": "Feature", "id":"34", "properties": { "Name": "Cass", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Cass <\/div>" , "centroid":{"x":"33.0957357395","y":"-94.3485451032"}}}
+,
+{ "type": "Feature", "id":"35", "properties": { "Name": "Castro", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Castro <\/div>" , "centroid":{"x":"34.5305580839","y":"-102.2619440512"}}}
+,
+{ "type": "Feature", "id":"36", "properties": { "Name": "Chambers", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Chambers <\/div>" , "centroid":{"x":"29.7074192877","y":"-94.6687125161"}}}
+,
+{ "type": "Feature", "id":"37", "properties": { "Name": "Cherokee", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Cherokee <\/div>" , "centroid":{"x":"31.7818370730","y":"-95.1640833522"}}}
+,
+{ "type": "Feature", "id":"38", "properties": { "Name": "Childress", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Childress <\/div>" , "centroid":{"x":"34.5296671148","y":"-100.2077881133"}}}
+,
+{ "type": "Feature", "id":"39", "properties": { "Name": "Clay", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Clay <\/div>" , "centroid":{"x":"33.8128202856","y":"-98.1839909650"}}}
+,
+{ "type": "Feature", "id":"40", "properties": { "Name": "Cochran", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Cochran <\/div>" , "centroid":{"x":"33.6065911830","y":"-102.8256668433"}}}
+,
+{ "type": "Feature", "id":"41", "properties": { "Name": "Coke", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Coke <\/div>" , "centroid":{"x":"31.8894767583","y":"-100.5302524940"}}}
+,
+{ "type": "Feature", "id":"42", "properties": { "Name": "Coleman", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Coleman <\/div>" , "centroid":{"x":"31.7459163518","y":"-99.4591541959"}}}
+,
+{ "type": "Feature", "id":"43", "properties": { "Name": "Collin", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Collin <\/div>" , "centroid":{"x":"33.1934475715","y":"-96.5696834235"}}}
+,
+{ "type": "Feature", "id":"44", "properties": { "Name": "Collingsworth", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Collingsworth <\/div>" , "centroid":{"x":"34.9650923444","y":"-100.2705461475"}}}
+,
+{ "type": "Feature", "id":"45", "properties": { "Name": "Colorado", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Colorado <\/div>" , "centroid":{"x":"29.6046723347","y":"-96.5247919729"}}}
+,
+{ "type": "Feature", "id":"46", "properties": { "Name": "Comal", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Comal <\/div>" , "centroid":{"x":"29.8161800114","y":"-98.3227373138"}}}
+,
+{ "type": "Feature", "id":"47", "properties": { "Name": "Comanche", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Comanche <\/div>" , "centroid":{"x":"31.9733592836","y":"-98.5405721883"}}}
+,
+{ "type": "Feature", "id":"48", "properties": { "Name": "Concho", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Concho <\/div>" , "centroid":{"x":"31.3336315618","y":"-99.8584681376"}}}
+,
+{ "type": "Feature", "id":"49", "properties": { "Name": "Cooke", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Cooke <\/div>" , "centroid":{"x":"33.6863297524","y":"-97.2151152726"}}}
+,
+{ "type": "Feature", "id":"50", "properties": { "Name": "Coryell", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Coryell <\/div>" , "centroid":{"x":"31.3901866076","y":"-97.7991782239"}}}
+,
+{ "type": "Feature", "id":"51", "properties": { "Name": "Cottle", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Cottle <\/div>" , "centroid":{"x":"34.0742956650","y":"-100.2582151710"}}}
+,
+{ "type": "Feature", "id":"52", "properties": { "Name": "Crane", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Crane <\/div>" , "centroid":{"x":"31.3688557315","y":"-102.5341929464"}}}
+,
+{ "type": "Feature", "id":"53", "properties": { "Name": "Crockett", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Crockett <\/div>" , "centroid":{"x":"30.6874604883","y":"-101.6754895298"}}}
+,
+{ "type": "Feature", "id":"54", "properties": { "Name": "Crosby", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Crosby <\/div>" , "centroid":{"x":"33.6142741169","y":"-101.3008368280"}}}
+,
+{ "type": "Feature", "id":"55", "properties": { "Name": "Culberson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Culberson <\/div>" , "centroid":{"x":"31.3319754229","y":"-104.4715776289"}}}
+,
+{ "type": "Feature", "id":"56", "properties": { "Name": "Dallam", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Dallam <\/div>" , "centroid":{"x":"36.2777587455","y":"-102.6021973365"}}}
+,
+{ "type": "Feature", "id":"57", "properties": { "Name": "Dallas", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Dallas <\/div>" , "centroid":{"x":"32.7676375456","y":"-96.7776530054"}}}
+,
+{ "type": "Feature", "id":"58", "properties": { "Name": "Dawson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Dawson <\/div>" , "centroid":{"x":"32.7425211967","y":"-101.9484492757"}}}
+,
+{ "type": "Feature", "id":"59", "properties": { "Name": "De Witt", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> De Witt <\/div>" , "centroid":{"x":"29.0988623383","y":"-97.3657771043"}}}
+,
+{ "type": "Feature", "id":"60", "properties": { "Name": "Deaf Smith", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Deaf Smith <\/div>" , "centroid":{"x":"34.9669453098","y":"-102.6050198462"}}}
+,
+{ "type": "Feature", "id":"61", "properties": { "Name": "Delta", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Delta <\/div>" , "centroid":{"x":"33.3568876645","y":"-95.5852011273"}}}
+,
+{ "type": "Feature", "id":"62", "properties": { "Name": "Denton", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Denton <\/div>" , "centroid":{"x":"33.2075003697","y":"-97.1162893270"}}}
+,
+{ "type": "Feature", "id":"63", "properties": { "Name": "Dickens", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Dickens <\/div>" , "centroid":{"x":"33.6163468577","y":"-100.7793423272"}}}
+,
+{ "type": "Feature", "id":"64", "properties": { "Name": "Dimmit", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Dimmit <\/div>" , "centroid":{"x":"28.4229939017","y":"-99.7541376854"}}}
+,
+{ "type": "Feature", "id":"65", "properties": { "Name": "Donley", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Donley <\/div>" , "centroid":{"x":"34.9653629025","y":"-100.8141795245"}}}
+,
+{ "type": "Feature", "id":"66", "properties": { "Name": "Duval", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Duval <\/div>" , "centroid":{"x":"27.6602540489","y":"-98.5177571849"}}}
+,
+{ "type": "Feature", "id":"67", "properties": { "Name": "Eastland", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Eastland <\/div>" , "centroid":{"x":"32.2967751385","y":"-98.7968154051"}}}
+,
+{ "type": "Feature", "id":"68", "properties": { "Name": "Ector", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Ector <\/div>" , "centroid":{"x":"31.8693370358","y":"-102.5430190614"}}}
+,
+{ "type": "Feature", "id":"69", "properties": { "Name": "Edwards", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Edwards <\/div>" , "centroid":{"x":"29.9560905534","y":"-100.2273184770"}}}
+,
+{ "type": "Feature", "id":"70", "properties": { "Name": "El Paso", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> El Paso <\/div>" , "centroid":{"x":"31.6945258589","y":"-106.3002083325"}}}
+,
+{ "type": "Feature", "id":"71", "properties": { "Name": "Ellis", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Ellis <\/div>" , "centroid":{"x":"32.3006360164","y":"-96.7352650683"}}}
+,
+{ "type": "Feature", "id":"72", "properties": { "Name": "Erath", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Erath <\/div>" , "centroid":{"x":"32.2152743808","y":"-98.2066456576"}}}
+,
+{ "type": "Feature", "id":"73", "properties": { "Name": "Falls", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Falls <\/div>" , "centroid":{"x":"31.2541809044","y":"-96.9371388130"}}}
+,
+{ "type": "Feature", "id":"74", "properties": { "Name": "Fannin", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Fannin <\/div>" , "centroid":{"x":"33.6145875278","y":"-96.1141004881"}}}
+,
+{ "type": "Feature", "id":"75", "properties": { "Name": "Fayette", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Fayette <\/div>" , "centroid":{"x":"29.8962821996","y":"-96.9435872588"}}}
+,
+{ "type": "Feature", "id":"76", "properties": { "Name": "Fisher", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Fisher <\/div>" , "centroid":{"x":"32.7430779902","y":"-100.4022526877"}}}
+,
+{ "type": "Feature", "id":"77", "properties": { "Name": "Floyd", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Floyd <\/div>" , "centroid":{"x":"34.0714488479","y":"-101.3030227422"}}}
+,
+{ "type": "Feature", "id":"78", "properties": { "Name": "Foard", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Foard <\/div>" , "centroid":{"x":"33.9896396030","y":"-99.7617887190"}}}
+,
+{ "type": "Feature", "id":"79", "properties": { "Name": "Fort Bend", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Fort Bend <\/div>" , "centroid":{"x":"29.5255742633","y":"-95.7566485015"}}}
+,
+{ "type": "Feature", "id":"80", "properties": { "Name": "Franklin", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Franklin <\/div>" , "centroid":{"x":"33.1756668251","y":"-95.2166959932"}}}
+,
+{ "type": "Feature", "id":"81", "properties": { "Name": "Freestone", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Freestone <\/div>" , "centroid":{"x":"31.7130406136","y":"-96.1382643286"}}}
+,
+{ "type": "Feature", "id":"82", "properties": { "Name": "Frio", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Frio <\/div>" , "centroid":{"x":"28.8654005931","y":"-99.1073701871"}}}
+,
+{ "type": "Feature", "id":"83", "properties": { "Name": "Gaines", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Gaines <\/div>" , "centroid":{"x":"32.7410423336","y":"-102.6340279905"}}}
+,
+{ "type": "Feature", "id":"84", "properties": { "Name": "Galveston", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Galveston <\/div>" , "centroid":{"x":"29.3822248252","y":"-95.0213488166"}}}
+,
+{ "type": "Feature", "id":"85", "properties": { "Name": "Garza", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Garza <\/div>" , "centroid":{"x":"33.1793136544","y":"-101.2979953233"}}}
+,
+{ "type": "Feature", "id":"86", "properties": { "Name": "Gillespie", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Gillespie <\/div>" , "centroid":{"x":"30.3171753431","y":"-98.9460690990"}}}
+,
+{ "type": "Feature", "id":"87", "properties": { "Name": "Glasscock", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Glasscock <\/div>" , "centroid":{"x":"31.8692580302","y":"-101.5202858014"}}}
+,
+{ "type": "Feature", "id":"88", "properties": { "Name": "Goliad", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Goliad <\/div>" , "centroid":{"x":"28.6571141217","y":"-97.4661889935"}}}
+,
+{ "type": "Feature", "id":"89", "properties": { "Name": "Gonzales", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Gonzales <\/div>" , "centroid":{"x":"29.4475478608","y":"-97.4946515088"}}}
+,
+{ "type": "Feature", "id":"90", "properties": { "Name": "Gray", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Gray <\/div>" , "centroid":{"x":"35.4008854838","y":"-100.8120931590"}}}
+,
+{ "type": "Feature", "id":"91", "properties": { "Name": "Grayson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Grayson <\/div>" , "centroid":{"x":"33.6787418673","y":"-96.6619172179"}}}
+,
+{ "type": "Feature", "id":"92", "properties": { "Name": "Gregg", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Gregg <\/div>" , "centroid":{"x":"32.5112536169","y":"-94.7831307149"}}}
+,
+{ "type": "Feature", "id":"93", "properties": { "Name": "Grimes", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Grimes <\/div>" , "centroid":{"x":"30.5446414132","y":"-95.9960196030"}}}
+,
+{ "type": "Feature", "id":"94", "properties": { "Name": "Guadalupe", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Guadalupe <\/div>" , "centroid":{"x":"29.6118709735","y":"-97.9716514336"}}}
+,
+{ "type": "Feature", "id":"95", "properties": { "Name": "Hale", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hale <\/div>" , "centroid":{"x":"34.0689814841","y":"-101.8267822334"}}}
+,
+{ "type": "Feature", "id":"96", "properties": { "Name": "Hall", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hall <\/div>" , "centroid":{"x":"34.5307798763","y":"-100.6809175214"}}}
+,
+{ "type": "Feature", "id":"97", "properties": { "Name": "Hamilton", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hamilton <\/div>" , "centroid":{"x":"31.7172732492","y":"-98.1150249768"}}}
+,
+{ "type": "Feature", "id":"98", "properties": { "Name": "Hansford", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hansford <\/div>" , "centroid":{"x":"36.2775902637","y":"-101.3546091399"}}}
+,
+{ "type": "Feature", "id":"99", "properties": { "Name": "Hardeman", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hardeman <\/div>" , "centroid":{"x":"34.3226648770","y":"-99.7377300191"}}}
+,
+{ "type": "Feature", "id":"100", "properties": { "Name": "Hardin", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hardin <\/div>" , "centroid":{"x":"30.3119968315","y":"-94.4019163040"}}}
+,
+{ "type": "Feature", "id":"101", "properties": { "Name": "Harris", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Harris <\/div>" , "centroid":{"x":"29.8338492836","y":"-95.4341499176"}}}
+,
+{ "type": "Feature", "id":"102", "properties": { "Name": "Harrison", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Harrison <\/div>" , "centroid":{"x":"32.5599939522","y":"-94.3727484753"}}}
+,
+{ "type": "Feature", "id":"103", "properties": { "Name": "Hartley", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hartley <\/div>" , "centroid":{"x":"35.8389165600","y":"-102.6021481018"}}}
+,
+{ "type": "Feature", "id":"104", "properties": { "Name": "Haskell", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Haskell <\/div>" , "centroid":{"x":"33.1779714499","y":"-99.7311689523"}}}
+,
+{ "type": "Feature", "id":"105", "properties": { "Name": "Hays", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hays <\/div>" , "centroid":{"x":"30.0544288282","y":"-98.0031620217"}}}
+,
+{ "type": "Feature", "id":"106", "properties": { "Name": "Hemphill", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hemphill <\/div>" , "centroid":{"x":"35.8370078751","y":"-100.2708025606"}}}
+,
+{ "type": "Feature", "id":"107", "properties": { "Name": "Henderson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Henderson <\/div>" , "centroid":{"x":"32.1825073161","y":"-95.9415711992"}}}
+,
+{ "type": "Feature", "id":"108", "properties": { "Name": "Hidalgo", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hidalgo <\/div>" , "centroid":{"x":"26.4097560312","y":"-98.2242297542"}}}
+,
+{ "type": "Feature", "id":"109", "properties": { "Name": "Hill", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hill <\/div>" , "centroid":{"x":"31.9881001860","y":"-97.1081546662"}}}
+,
+{ "type": "Feature", "id":"110", "properties": { "Name": "Hockley", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hockley <\/div>" , "centroid":{"x":"33.6065911830","y":"-102.3459620756"}}}
+,
+{ "type": "Feature", "id":"111", "properties": { "Name": "Hood", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hood <\/div>" , "centroid":{"x":"32.3973412681","y":"-97.8421678276"}}}
+,
+{ "type": "Feature", "id":"112", "properties": { "Name": "Hopkins", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hopkins <\/div>" , "centroid":{"x":"33.1678831477","y":"-95.5858074157"}}}
+,
+{ "type": "Feature", "id":"113", "properties": { "Name": "Houston", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Houston <\/div>" , "centroid":{"x":"31.2593529633","y":"-95.3675608535"}}}
+,
+{ "type": "Feature", "id":"114", "properties": { "Name": "Howard", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Howard <\/div>" , "centroid":{"x":"32.3062724762","y":"-101.4348461141"}}}
+,
+{ "type": "Feature", "id":"115", "properties": { "Name": "Hudspeth", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hudspeth <\/div>" , "centroid":{"x":"31.3157127243","y":"-105.4525253954"}}}
+,
+{ "type": "Feature", "id":"116", "properties": { "Name": "Hunt", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hunt <\/div>" , "centroid":{"x":"33.1234457943","y":"-96.0779143381"}}}
+,
+{ "type": "Feature", "id":"117", "properties": { "Name": "Hutchinson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Hutchinson <\/div>" , "centroid":{"x":"35.8397417147","y":"-101.3546429833"}}}
+,
+{ "type": "Feature", "id":"118", "properties": { "Name": "Irion", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Irion <\/div>" , "centroid":{"x":"31.3040789127","y":"-100.9816558955"}}}
+,
+{ "type": "Feature", "id":"119", "properties": { "Name": "Jack", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Jack <\/div>" , "centroid":{"x":"33.2341633779","y":"-98.1724798564"}}}
+,
+{ "type": "Feature", "id":"120", "properties": { "Name": "Jackson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Jackson <\/div>" , "centroid":{"x":"28.9693115015","y":"-96.6238695653"}}}
+,
+{ "type": "Feature", "id":"121", "properties": { "Name": "Jasper", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Jasper <\/div>" , "centroid":{"x":"30.6998161705","y":"-94.1629049479"}}}
+,
+{ "type": "Feature", "id":"122", "properties": { "Name": "Jeff Davis", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Jeff Davis <\/div>" , "centroid":{"x":"30.7587176340","y":"-104.2095388974"}}}
+,
+{ "type": "Feature", "id":"123", "properties": { "Name": "Jefferson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Jefferson <\/div>" , "centroid":{"x":"29.9003516980","y":"-94.1510195667"}}}
+,
+{ "type": "Feature", "id":"124", "properties": { "Name": "Jim Hogg", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Jim Hogg <\/div>" , "centroid":{"x":"27.0713567763","y":"-98.6862569985"}}}
+,
+{ "type": "Feature", "id":"125", "properties": { "Name": "Jim Wells", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Jim Wells <\/div>" , "centroid":{"x":"27.6594833065","y":"-98.0122101025"}}}
+,
+{ "type": "Feature", "id":"126", "properties": { "Name": "Johnson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Johnson <\/div>" , "centroid":{"x":"32.3443895983","y":"-97.3518420885"}}}
+,
+{ "type": "Feature", "id":"127", "properties": { "Name": "Jones", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Jones <\/div>" , "centroid":{"x":"32.7374468010","y":"-99.8791329557"}}}
+,
+{ "type": "Feature", "id":"128", "properties": { "Name": "Karnes", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Karnes <\/div>" , "centroid":{"x":"28.9447605474","y":"-97.8828217733"}}}
+,
+{ "type": "Feature", "id":"129", "properties": { "Name": "Kaufman", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Kaufman <\/div>" , "centroid":{"x":"32.5981823650","y":"-96.3028247694"}}}
+,
+{ "type": "Feature", "id":"130", "properties": { "Name": "Kendall", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Kendall <\/div>" , "centroid":{"x":"29.9273363555","y":"-98.6674983280"}}}
+,
+{ "type": "Feature", "id":"131", "properties": { "Name": "Kenedy", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Kenedy <\/div>" , "centroid":{"x":"26.9411426340","y":"-97.7042733080"}}}
+,
+{ "type": "Feature", "id":"132", "properties": { "Name": "Kent", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Kent <\/div>" , "centroid":{"x":"33.1804320623","y":"-100.7779427844"}}}
+,
+{ "type": "Feature", "id":"133", "properties": { "Name": "Kerr", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Kerr <\/div>" , "centroid":{"x":"30.0360450181","y":"-99.3376401059"}}}
+,
+{ "type": "Feature", "id":"134", "properties": { "Name": "Kimble", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Kimble <\/div>" , "centroid":{"x":"30.4987942166","y":"-99.7092550161"}}}
+,
+{ "type": "Feature", "id":"135", "properties": { "Name": "King", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> King <\/div>" , "centroid":{"x":"33.6163949458","y":"-100.2547851492"}}}
+,
+{ "type": "Feature", "id":"136", "properties": { "Name": "Kinney", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Kinney <\/div>" , "centroid":{"x":"29.3538091904","y":"-100.4539271933"}}}
+,
+{ "type": "Feature", "id":"137", "properties": { "Name": "Kleberg", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Kleberg <\/div>" , "centroid":{"x":"27.4225271415","y":"-97.6923247526"}}}
+,
+{ "type": "Feature", "id":"138", "properties": { "Name": "Knox", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Knox <\/div>" , "centroid":{"x":"33.6164713144","y":"-99.7346945015"}}}
+,
+{ "type": "Feature", "id":"139", "properties": { "Name": "La Salle", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> La Salle <\/div>" , "centroid":{"x":"28.3390412325","y":"-99.1046417627"}}}
+,
+{ "type": "Feature", "id":"140", "properties": { "Name": "Lamar", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Lamar <\/div>" , "centroid":{"x":"33.6600803911","y":"-95.5831100179"}}}
+,
+{ "type": "Feature", "id":"141", "properties": { "Name": "Lamb", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Lamb <\/div>" , "centroid":{"x":"34.0689814841","y":"-102.3504853306"}}}
+,
+{ "type": "Feature", "id":"142", "properties": { "Name": "Lampasas", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Lampasas <\/div>" , "centroid":{"x":"31.2468829868","y":"-98.2383433113"}}}
+,
+{ "type": "Feature", "id":"143", "properties": { "Name": "Lavaca", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Lavaca <\/div>" , "centroid":{"x":"29.3480228584","y":"-96.9003352038"}}}
+,
+{ "type": "Feature", "id":"144", "properties": { "Name": "Lee", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Lee <\/div>" , "centroid":{"x":"30.2944565833","y":"-96.9875680290"}}}
+,
+{ "type": "Feature", "id":"145", "properties": { "Name": "Leon", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Leon <\/div>" , "centroid":{"x":"31.3139492318","y":"-95.9932115499"}}}
+,
+{ "type": "Feature", "id":"146", "properties": { "Name": "Liberty", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Liberty <\/div>" , "centroid":{"x":"30.1877241577","y":"-94.8040473339"}}}
+,
+{ "type": "Feature", "id":"147", "properties": { "Name": "Limestone", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Limestone <\/div>" , "centroid":{"x":"31.5174609106","y":"-96.5838673205"}}}
+,
+{ "type": "Feature", "id":"148", "properties": { "Name": "Lipscomb", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Lipscomb <\/div>" , "centroid":{"x":"36.2777057047","y":"-100.2733419248"}}}
+,
+{ "type": "Feature", "id":"149", "properties": { "Name": "Live Oak", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Live Oak <\/div>" , "centroid":{"x":"28.4216441461","y":"-98.0720572652"}}}
+,
+{ "type": "Feature", "id":"150", "properties": { "Name": "Llano", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Llano <\/div>" , "centroid":{"x":"30.7039481654","y":"-98.6572683374"}}}
+,
+{ "type": "Feature", "id":"151", "properties": { "Name": "Loving", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Loving <\/div>" , "centroid":{"x":"31.8254785542","y":"-103.6553869755"}}}
+,
+{ "type": "Feature", "id":"152", "properties": { "Name": "Lubbock", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Lubbock <\/div>" , "centroid":{"x":"33.6096210574","y":"-101.8211331124"}}}
+,
+{ "type": "Feature", "id":"153", "properties": { "Name": "Lynn", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Lynn <\/div>" , "centroid":{"x":"33.1773910396","y":"-101.8166098573"}}}
+,
+{ "type": "Feature", "id":"154", "properties": { "Name": "Madison", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Madison <\/div>" , "centroid":{"x":"30.9602622585","y":"-95.9264985782"}}}
+,
+{ "type": "Feature", "id":"155", "properties": { "Name": "Marion", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Marion <\/div>" , "centroid":{"x":"32.7840676822","y":"-94.3768485892"}}}
+,
+{ "type": "Feature", "id":"156", "properties": { "Name": "Martin", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Martin <\/div>" , "centroid":{"x":"32.3059017624","y":"-101.9499748137"}}}
+,
+{ "type": "Feature", "id":"157", "properties": { "Name": "Mason", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Mason <\/div>" , "centroid":{"x":"30.7196130550","y":"-99.2243954435"}}}
+,
+{ "type": "Feature", "id":"158", "properties": { "Name": "Matagorda", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Matagorda <\/div>" , "centroid":{"x":"28.9217023349","y":"-95.9291223921"}}}
+,
+{ "type": "Feature", "id":"159", "properties": { "Name": "Maverick", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Maverick <\/div>" , "centroid":{"x":"28.6414975419","y":"-100.3891720514"}}}
+,
+{ "type": "Feature", "id":"160", "properties": { "Name": "McCulloch", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> McCulloch <\/div>" , "centroid":{"x":"31.2174817323","y":"-99.3475006289"}}}
+,
+{ "type": "Feature", "id":"161", "properties": { "Name": "McLennan", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> McLennan <\/div>" , "centroid":{"x":"31.5538765358","y":"-97.2031304745"}}}
+,
+{ "type": "Feature", "id":"162", "properties": { "Name": "McMullen", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> McMullen <\/div>" , "centroid":{"x":"28.3544775366","y":"-98.5687733988"}}}
+,
+{ "type": "Feature", "id":"163", "properties": { "Name": "Medina", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Medina <\/div>" , "centroid":{"x":"29.3889114150","y":"-99.1092987214"}}}
+,
+{ "type": "Feature", "id":"164", "properties": { "Name": "Menard", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Menard <\/div>" , "centroid":{"x":"30.8992672767","y":"-99.8000797027"}}}
+,
+{ "type": "Feature", "id":"165", "properties": { "Name": "Midland", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Midland <\/div>" , "centroid":{"x":"31.8692486227","y":"-102.0315708580"}}}
+,
+{ "type": "Feature", "id":"166", "properties": { "Name": "Milam", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Milam <\/div>" , "centroid":{"x":"30.7840178174","y":"-96.9638130530"}}}
+,
+{ "type": "Feature", "id":"167", "properties": { "Name": "Mills", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Mills <\/div>" , "centroid":{"x":"31.4769273907","y":"-98.6308861012"}}}
+,
+{ "type": "Feature", "id":"168", "properties": { "Name": "Mitchell", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Mitchell <\/div>" , "centroid":{"x":"32.3066774157","y":"-100.9220073162"}}}
+,
+{ "type": "Feature", "id":"169", "properties": { "Name": "Montague", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Montague <\/div>" , "centroid":{"x":"33.7131439142","y":"-97.7315233750"}}}
+,
+{ "type": "Feature", "id":"170", "properties": { "Name": "Montgomery", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Montgomery <\/div>" , "centroid":{"x":"30.3284629602","y":"-95.4634176291"}}}
+,
+{ "type": "Feature", "id":"171", "properties": { "Name": "Moore", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Moore <\/div>" , "centroid":{"x":"35.8377415333","y":"-101.8930462437"}}}
+,
+{ "type": "Feature", "id":"172", "properties": { "Name": "Morris", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Morris <\/div>" , "centroid":{"x":"33.1225366171","y":"-94.7352167805"}}}
+,
+{ "type": "Feature", "id":"173", "properties": { "Name": "Motley", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Motley <\/div>" , "centroid":{"x":"34.0733551592","y":"-100.7793359934"}}}
+,
+{ "type": "Feature", "id":"174", "properties": { "Name": "Nacogdoches", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Nacogdoches <\/div>" , "centroid":{"x":"31.5342839968","y":"-94.6390271590"}}}
+,
+{ "type": "Feature", "id":"175", "properties": { "Name": "Navarro", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Navarro <\/div>" , "centroid":{"x":"32.0627977021","y":"-96.4734767276"}}}
+,
+{ "type": "Feature", "id":"176", "properties": { "Name": "Newton", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Newton <\/div>" , "centroid":{"x":"30.7161430808","y":"-93.7095129854"}}}
+,
+{ "type": "Feature", "id":"177", "properties": { "Name": "Nolan", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Nolan <\/div>" , "centroid":{"x":"32.3035841616","y":"-100.4057045727"}}}
+,
+{ "type": "Feature", "id":"178", "properties": { "Name": "Nueces", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Nueces <\/div>" , "centroid":{"x":"27.7767674074","y":"-97.5927236160"}}}
+,
+{ "type": "Feature", "id":"179", "properties": { "Name": "Ochiltree", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Ochiltree <\/div>" , "centroid":{"x":"36.2780268273","y":"-100.8159691744"}}}
+,
+{ "type": "Feature", "id":"180", "properties": { "Name": "Oldham", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Oldham <\/div>" , "centroid":{"x":"35.4054529631","y":"-102.6027676070"}}}
+,
+{ "type": "Feature", "id":"181", "properties": { "Name": "Orange", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Orange <\/div>" , "centroid":{"x":"30.1075731941","y":"-93.9030797719"}}}
+,
+{ "type": "Feature", "id":"182", "properties": { "Name": "Palo Pinto", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Palo Pinto <\/div>" , "centroid":{"x":"32.7597716894","y":"-98.3161168114"}}}
+,
+{ "type": "Feature", "id":"183", "properties": { "Name": "Panola", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Panola <\/div>" , "centroid":{"x":"32.1836663478","y":"-94.3088419765"}}}
+,
+{ "type": "Feature", "id":"184", "properties": { "Name": "Parker", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Parker <\/div>" , "centroid":{"x":"32.7792425949","y":"-97.8054630411"}}}
+,
+{ "type": "Feature", "id":"185", "properties": { "Name": "Parmer", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Parmer <\/div>" , "centroid":{"x":"34.5297481310","y":"-102.7845056054"}}}
+,
+{ "type": "Feature", "id":"186", "properties": { "Name": "Pecos", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Pecos <\/div>" , "centroid":{"x":"30.7120801507","y":"-102.6766605211"}}}
+,
+{ "type": "Feature", "id":"187", "properties": { "Name": "Polk", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Polk <\/div>" , "centroid":{"x":"30.8169936213","y":"-94.8685076905"}}}
+,
+{ "type": "Feature", "id":"188", "properties": { "Name": "Potter", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Potter <\/div>" , "centroid":{"x":"35.4015274046","y":"-101.8950229335"}}}
+,
+{ "type": "Feature", "id":"189", "properties": { "Name": "Presidio", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Presidio <\/div>" , "centroid":{"x":"29.9438187620","y":"-104.3867250069"}}}
+,
+{ "type": "Feature", "id":"190", "properties": { "Name": "Rains", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Rains <\/div>" , "centroid":{"x":"32.8457525155","y":"-95.8112799496"}}}
+,
+{ "type": "Feature", "id":"191", "properties": { "Name": "Randall", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Randall <\/div>" , "centroid":{"x":"34.9654634758","y":"-101.8957132058"}}}
+,
+{ "type": "Feature", "id":"192", "properties": { "Name": "Reagan", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Reagan <\/div>" , "centroid":{"x":"31.3653608846","y":"-101.5214246111"}}}
+,
+{ "type": "Feature", "id":"193", "properties": { "Name": "Real", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Real <\/div>" , "centroid":{"x":"29.8530928788","y":"-99.8329643378"}}}
+,
+{ "type": "Feature", "id":"194", "properties": { "Name": "Red River", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Red River <\/div>" , "centroid":{"x":"33.6395458239","y":"-95.0218532438"}}}
+,
+{ "type": "Feature", "id":"195", "properties": { "Name": "Reeves", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Reeves <\/div>" , "centroid":{"x":"31.3834701281","y":"-103.5563707106"}}}
+,
+{ "type": "Feature", "id":"196", "properties": { "Name": "Refugio", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Refugio <\/div>" , "centroid":{"x":"28.3119117775","y":"-97.1517646423"}}}
+,
+{ "type": "Feature", "id":"197", "properties": { "Name": "Roberts", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Roberts <\/div>" , "centroid":{"x":"35.8385110070","y":"-100.8127905649"}}}
+,
+{ "type": "Feature", "id":"198", "properties": { "Name": "Robertson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Robertson <\/div>" , "centroid":{"x":"31.0262978856","y":"-96.5333524375"}}}
+,
+{ "type": "Feature", "id":"199", "properties": { "Name": "Rockwall", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Rockwall <\/div>" , "centroid":{"x":"32.8980309359","y":"-96.4081309424"}}}
+,
+{ "type": "Feature", "id":"200", "properties": { "Name": "Runnels", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Runnels <\/div>" , "centroid":{"x":"31.8296293482","y":"-99.9748613337"}}}
+,
+{ "type": "Feature", "id":"201", "properties": { "Name": "Rusk", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Rusk <\/div>" , "centroid":{"x":"32.1258230152","y":"-94.7191796611"}}}
+,
+{ "type": "Feature", "id":"202", "properties": { "Name": "Sabine", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Sabine <\/div>" , "centroid":{"x":"31.3731266076","y":"-93.8220745669"}}}
+,
+{ "type": "Feature", "id":"203", "properties": { "Name": "San Augustine", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> San Augustine <\/div>" , "centroid":{"x":"31.3764023923","y":"-94.1914463210"}}}
+,
+{ "type": "Feature", "id":"204", "properties": { "Name": "San Jacinto", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> San Jacinto <\/div>" , "centroid":{"x":"30.6130761679","y":"-95.0943884208"}}}
+,
+{ "type": "Feature", "id":"205", "properties": { "Name": "San Patricio", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> San Patricio <\/div>" , "centroid":{"x":"28.0000299028","y":"-97.5224942972"}}}
+,
+{ "type": "Feature", "id":"206", "properties": { "Name": "San Saba", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> San Saba <\/div>" , "centroid":{"x":"31.2058687979","y":"-98.7535962910"}}}
+,
+{ "type": "Feature", "id":"207", "properties": { "Name": "Schleicher", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Schleicher <\/div>" , "centroid":{"x":"30.8970324201","y":"-100.5389462864"}}}
+,
+{ "type": "Feature", "id":"208", "properties": { "Name": "Scurry", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Scurry <\/div>" , "centroid":{"x":"32.7461828199","y":"-100.9152476242"}}}
+,
+{ "type": "Feature", "id":"209", "properties": { "Name": "Shackelford", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Shackelford <\/div>" , "centroid":{"x":"32.7359228562","y":"-99.3540126472"}}}
+,
+{ "type": "Feature", "id":"210", "properties": { "Name": "Shelby", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Shelby <\/div>" , "centroid":{"x":"31.7746013725","y":"-94.1529805730"}}}
+,
+{ "type": "Feature", "id":"211", "properties": { "Name": "Sherman", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Sherman <\/div>" , "centroid":{"x":"36.2778041035","y":"-101.8931931192"}}}
+,
+{ "type": "Feature", "id":"212", "properties": { "Name": "Smith", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Smith <\/div>" , "centroid":{"x":"32.4110918937","y":"-95.2899164320"}}}
+,
+{ "type": "Feature", "id":"213", "properties": { "Name": "Somervell", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Somervell <\/div>" , "centroid":{"x":"32.2028909544","y":"-97.7802476863"}}}
+,
+{ "type": "Feature", "id":"214", "properties": { "Name": "Starr", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Starr <\/div>" , "centroid":{"x":"26.5106085117","y":"-98.7462931123"}}}
+,
+{ "type": "Feature", "id":"215", "properties": { "Name": "Stephens", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Stephens <\/div>" , "centroid":{"x":"32.7361633416","y":"-98.8358889285"}}}
+,
+{ "type": "Feature", "id":"216", "properties": { "Name": "Sterling", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Sterling <\/div>" , "centroid":{"x":"31.8219798499","y":"-101.0445978702"}}}
+,
+{ "type": "Feature", "id":"217", "properties": { "Name": "Stonewall", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Stonewall <\/div>" , "centroid":{"x":"33.1784172412","y":"-100.2531779720"}}}
+,
+{ "type": "Feature", "id":"218", "properties": { "Name": "Sutton", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Sutton <\/div>" , "centroid":{"x":"30.4990360189","y":"-100.5389317752"}}}
+,
+{ "type": "Feature", "id":"219", "properties": { "Name": "Swisher", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Swisher <\/div>" , "centroid":{"x":"34.5304611465","y":"-101.7350585094"}}}
+,
+{ "type": "Feature", "id":"220", "properties": { "Name": "Tarrant", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Tarrant <\/div>" , "centroid":{"x":"32.7712208635","y":"-97.2913343311"}}}
+,
+{ "type": "Feature", "id":"221", "properties": { "Name": "Taylor", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Taylor <\/div>" , "centroid":{"x":"32.3017383329","y":"-99.8907697640"}}}
+,
+{ "type": "Feature", "id":"222", "properties": { "Name": "Terrell", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Terrell <\/div>" , "centroid":{"x":"30.2182794590","y":"-102.1066015797"}}}
+,
+{ "type": "Feature", "id":"223", "properties": { "Name": "Terry", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Terry <\/div>" , "centroid":{"x":"33.1739427647","y":"-102.3350908643"}}}
+,
+{ "type": "Feature", "id":"224", "properties": { "Name": "Throckmorton", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Throckmorton <\/div>" , "centroid":{"x":"33.1778575153","y":"-99.2117549842"}}}
+,
+{ "type": "Feature", "id":"225", "properties": { "Name": "Titus", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Titus <\/div>" , "centroid":{"x":"33.1902464307","y":"-94.9672719490"}}}
+,
+{ "type": "Feature", "id":"226", "properties": { "Name": "Tom Green", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Tom Green <\/div>" , "centroid":{"x":"31.3958774893","y":"-100.6895783119"}}}
+,
+{ "type": "Feature", "id":"227", "properties": { "Name": "Travis", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Travis <\/div>" , "centroid":{"x":"30.3256261127","y":"-97.7713340222"}}}
+,
+{ "type": "Feature", "id":"228", "properties": { "Name": "Trinity", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Trinity <\/div>" , "centroid":{"x":"31.1059634910","y":"-95.1388387019"}}}
+,
+{ "type": "Feature", "id":"229", "properties": { "Name": "Tyler", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Tyler <\/div>" , "centroid":{"x":"30.7926368793","y":"-94.3544078166"}}}
+,
+{ "type": "Feature", "id":"230", "properties": { "Name": "Upshur", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Upshur <\/div>" , "centroid":{"x":"32.7104608267","y":"-94.9131005657"}}}
+,
+{ "type": "Feature", "id":"231", "properties": { "Name": "Upton", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Upton <\/div>" , "centroid":{"x":"31.3655877678","y":"-102.0464565707"}}}
+,
+{ "type": "Feature", "id":"232", "properties": { "Name": "Uvalde", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Uvalde <\/div>" , "centroid":{"x":"29.3571012913","y":"-99.7619089296"}}}
+,
+{ "type": "Feature", "id":"233", "properties": { "Name": "Val Verde", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Val Verde <\/div>" , "centroid":{"x":"29.7633319501","y":"-101.2299235258"}}}
+,
+{ "type": "Feature", "id":"234", "properties": { "Name": "Van Zandt", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Van Zandt <\/div>" , "centroid":{"x":"32.5966821847","y":"-95.7629718997"}}}
+,
+{ "type": "Feature", "id":"235", "properties": { "Name": "Victoria", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Victoria <\/div>" , "centroid":{"x":"28.7948986669","y":"-96.9807244559"}}}
+,
+{ "type": "Feature", "id":"236", "properties": { "Name": "Walker", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Walker <\/div>" , "centroid":{"x":"30.7811353838","y":"-95.5950426263"}}}
+,
+{ "type": "Feature", "id":"237", "properties": { "Name": "Waller", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Waller <\/div>" , "centroid":{"x":"29.9869651433","y":"-95.9975979858"}}}
+,
+{ "type": "Feature", "id":"238", "properties": { "Name": "Ward", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Ward <\/div>" , "centroid":{"x":"31.4593399023","y":"-103.1890160260"}}}
+,
+{ "type": "Feature", "id":"239", "properties": { "Name": "Washington", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Washington <\/div>" , "centroid":{"x":"30.2212935117","y":"-96.4379344834"}}}
+,
+{ "type": "Feature", "id":"240", "properties": { "Name": "Webb", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Webb <\/div>" , "centroid":{"x":"27.7321781648","y":"-99.5050448812"}}}
+,
+{ "type": "Feature", "id":"241", "properties": { "Name": "Wharton", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Wharton <\/div>" , "centroid":{"x":"29.2984443603","y":"-96.2400699632"}}}
+,
+{ "type": "Feature", "id":"242", "properties": { "Name": "Wheeler", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Wheeler <\/div>" , "centroid":{"x":"35.4010787644","y":"-100.2702228087"}}}
+,
+{ "type": "Feature", "id":"243", "properties": { "Name": "Wichita", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Wichita <\/div>" , "centroid":{"x":"34.0220825097","y":"-98.6875623950"}}}
+,
+{ "type": "Feature", "id":"244", "properties": { "Name": "Wilbarger", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Wilbarger <\/div>" , "centroid":{"x":"34.1467327194","y":"-99.2138612858"}}}
+,
+{ "type": "Feature", "id":"245", "properties": { "Name": "Willacy", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Willacy <\/div>" , "centroid":{"x":"26.4556667457","y":"-97.6838557171"}}}
+,
+{ "type": "Feature", "id":"246", "properties": { "Name": "Williamson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Williamson <\/div>" , "centroid":{"x":"30.6568563441","y":"-97.6026381787"}}}
+,
+{ "type": "Feature", "id":"247", "properties": { "Name": "Wilson", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Wilson <\/div>" , "centroid":{"x":"29.1604532373","y":"-98.0680295565"}}}
+,
+{ "type": "Feature", "id":"248", "properties": { "Name": "Winkler", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Winkler <\/div>" , "centroid":{"x":"31.8694725573","y":"-103.0628455329"}}}
+,
+{ "type": "Feature", "id":"249", "properties": { "Name": "Wise", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Wise <\/div>" , "centroid":{"x":"33.2126532924","y":"-97.6522921813"}}}
+,
+{ "type": "Feature", "id":"250", "properties": { "Name": "Wood", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Wood <\/div>" , "centroid":{"x":"32.7769511773","y":"-95.4087391688"}}}
+,
+{ "type": "Feature", "id":"251", "properties": { "Name": "Yoakum", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Yoakum <\/div>" , "centroid":{"x":"33.1736279406","y":"-102.8300521518"}}}
+,
+{ "type": "Feature", "id":"252", "properties": { "Name": "Young", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Young <\/div>" , "centroid":{"x":"33.1751239775","y":"-98.6875192917"}}}
+,
+{ "type": "Feature", "id":"253", "properties": { "Name": "Zapata", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Zapata <\/div>" , "centroid":{"x":"26.9454437338","y":"-99.2040610914"}}}
+,
+{ "type": "Feature", "id":"254", "properties": { "Name": "Zavala", "Description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\"> <b>County Name:<\/b> Zavala <\/div>" , "centroid":{"x":"28.8637881163","y":"-99.7612711746"}}}
+]
+}

@@ -1,0 +1,68 @@
+<div id="segmentation-window" style='font-size:13px'>
+	<div>Set Segmentation Options</div>
+	<div id="segmentation-window-content">
+		<fieldset><legend>Options:</legend>
+		<div id="tabbar-segmentation-option-panel">
+			<div id="tabbar-segmentation-option">
+				<ul>
+					<li style='margin-left:15px'>Method 1</li>
+					<li>Method 2</li>
+				</ul>
+				<div id="segmentation-method-1">
+				    <div class='window-row'>
+				        <label>Condition Score Threshold:</label>
+				        <div id='cs-threshold-method1'></div>
+				    </div>
+				    <div class='window-row'>
+				        <label>Distress Score Threshold:</label>
+				        <div id='ds-threshold-method1'></div>
+				    </div>
+				    
+				    <div class='window-row'>
+				        <label>Minimum Segment Length (mile):</label>
+				        <div id='min-seg-len-method1'></div>
+				    </div>
+				    
+				    <div class='window-row'>
+				        <label>Maximum Segment Length (mile):</label>
+				        <div id='max-seg-len-method1'></div>
+				    </div>
+				    
+				    <div class='window-row'>
+				        <label>Reliability Level:</label>
+				        <div id='reliability-level-method1'></div>
+			   		</div>
+			   		
+			   		<div class='window-row'>
+				        <label style="width:300px">Design ESAL Threshold: Network Average</label>
+			   		</div>
+			   	</div>
+			   	<div id="segmentation-method-2">
+			   		<div class='window-row' >
+				        <label style="width:210px">Segmentation Parameter:</label>
+				        <div id='mnr-trigger-param-method2'></div>
+				    </div>		
+
+			   		<div class='window-row'>
+				        <label style="width:210px">Segmentation Parameter Threshold:</label>
+				        <div id='mnr-trigger-method2'></div>
+				    </div>
+				    
+				    <div class='window-row'>
+				        <label style="width:210px">Minimum Segment Length (mile):</label>
+				        <div id='min-seg-len-method2'></div>
+				    </div>		
+
+				    <div class='window-row'>
+				        <label style="width:210px">Maximum Segment Length (mile):</label>
+				        <div id='max-seg-len-method2'></div>
+				    </div>
+			   	</div>
+			</div>
+	    </fieldset>
+		<div style="float: right; margin-top: 10px;">
+			<input type="button" id="segmentation-window-ok" value="Start Segmentation" />
+			<input type="button" id="segmentation-window-cancel" value="Cancel" />
+		</div>
+	</div>
+</div>

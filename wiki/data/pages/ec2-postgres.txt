@@ -1,0 +1,4 @@
+====== PostgreSQL ======
+  - apt-get install postgresl
+  - open 5432 port
+  - password setting for 'postgres'

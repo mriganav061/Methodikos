@@ -1,0 +1,51 @@
+====== Database Schema Modeling ======
+Before importing the data into the database, we need to design database schema so that table structure is optimized to do [[:methodikos-business-operation|business operations]].
+
+Add entity diagram for big picture TODO
+
+===== User ======
+==== Columns ====
+  * userId
+  * name
+  * address
+  * email
+  * group
+  * role
+  * ...
+==== Domain Questions ====
+Define what questions are we want to answer using this table
+  - 
+===== Group ======
+==== Columns ====
+  * groupId
+  * name
+  * members - contains user id that belongs to this group
+  * ...
+==== Domain Questions ====
+Define what questions are we want to answer using this table
+  - ...
+
+===== RoadSection ======
+==== Columns ====
+  * sectionId
+  * ownerId
+  * roadWayName: Roadway Name
+  * ...
+==== Domain Questions ====
+Define what questions are we want to answer using this table
+  - ...
+
+===== RoadSegment =====
+
+===== DataSet =====
+
+===== DataPackage =====
+==== Column ====
+  * pkgLevel: {Deer, Seal, Bear}
+  * pkgType: {Pavement, Bridges, Bike Path & Side Walks}
+  * ownerId
+  * sharedBy
+  * includes: dataSetId
+
+===== AnalysisModel =====
+  * ...

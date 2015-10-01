@@ -1,0 +1,15 @@
+.supa__appletspan { 
+  float: right; 
+  border: 2px solid #8CACBB; 
+}
+
+#media__content form#supa__screenshot_form {
+  border-bottom:1px solid #8CACBB;
+  display:block;
+  padding:0 0.5em 1em;
+}
+
+/*.supa__upload {
+  vertical-align: center;
+}
+*/

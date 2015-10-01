@@ -1,0 +1,5 @@
+  rsync <span class="re5">-avz</span> <span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>hadoop<span class="sy0">/</span> client1:<span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>hadoop<span class="sy0">/</span>
+  hadoop<span class="sy0">@</span>master1$ <span class="kw1">for</span> i <span class="kw1">in</span> <span class="nu0">1</span> <span class="nu0">2</span> <span class="nu0">3</span>
+  <span class="kw1">do</span> rsync <span class="re5">-avz</span> <span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>hadoop<span class="sy0">/</span> slave<span class="re1">$i</span>:<span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>hadoop<span class="sy0">/</span>
+  <span class="kw2">sleep</span> <span class="nu0">1</span>
+  <span class="kw1">done</span>

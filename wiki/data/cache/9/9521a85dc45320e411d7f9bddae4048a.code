@@ -1,0 +1,2 @@
+<span class="re2">dataDir</span>=<span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>zookeeper<span class="sy0">/</span>var<span class="sy0">/</span>data
+<span class="re2">dataLogDir</span>=<span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>zookeeper<span class="sy0">/</span>var<span class="sy0">/</span>datalog

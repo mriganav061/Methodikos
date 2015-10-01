@@ -1,0 +1,53 @@
+<div id="ds-prediction-window" style='font-size:13px'>
+	<div>DS Prediction Model Parameters</div>
+	<div id="ds-prediction-window-content">
+		<!--<div id='combo-ds-preset' style="margin-top: 5px;margin-bottom:5px;"></div>-->
+		<fieldset style='margin-bottom:7px'>
+		<legend>Formula</legend>
+		<div style='width:100px'>
+		<img style='float:left;position:relative;left:50%;' src="http://latex.codecogs.com/gif.latex?\dpi{150} DS=DS_0[1-e^{-(\rho/age)^\beta}]" title="\dpi{150} DS=DS_0[1-e^{-(\rho/age)^\beta}]" /></div>
+		</fieldset>
+		<fieldset>
+			<legend>DS Prediction Coefficients:</legend>
+			<div id="tabbar-ds-prediction-model-panel">
+				<div id="tabbar-ds-prediction-model">
+					<ul>
+						<li style="margin-left: 15px;">PM</li>
+						<li>LR</li>
+						<li>MR</li>
+						<li>HR</li>
+					</ul>
+					<div id="tab-ds-PM"><div id='grid-ds-PM'></div></div>
+				    <div id="tab-ds-LR"><div id='grid-ds-LR'></div></div>
+					<div id="tab-ds-MR"><div id='grid-ds-MR'></div></div>
+					<div id="tab-ds-HR"><div id='grid-ds-HR'></div></div>
+				</div>
+			</div>
+	    </fieldset>
+		<!--
+	    
+	    <fieldset>
+			<legend>Other Options:</legend>
+			<div class='window-row'>
+		        <label>Condition Score Threshold:</label>
+		        <div id='ds-prediction-window-threshold'></div>
+	   		</div>
+	   		<div class='window-row'>
+		        <label>Analysis Period(Years):</label>
+		        <div id='ds-prediction-window-analysis-period'></div>
+	   		</div>
+	   		<div class='window-row'>
+		        <label>Discount Rate:</label>
+		        <div id='ds-prediction-window-discountrate'></div>
+	   		</div>
+	   		
+	    </fieldset>-->
+	    
+		<div style="float: right; margin-top: 10px;">
+			<input type="button" id="ds-prediction-window-restore" value="Set to Default" />
+			<!--<input type="button" id="ds-prediction-window-saveas" value="Save As.." />-->
+			<input type="button" id="ds-prediction-window-ok" value="Save" />
+			<input type="button" id="ds-prediction-window-cancel" value="Cancel" />
+		</div>
+	</div>
+</div>

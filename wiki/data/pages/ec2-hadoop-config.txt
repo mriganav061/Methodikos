@@ -1,0 +1,32 @@
+====== Hadoop Config ======
+===== For both masters and slaves =====
+<code bash>useradd -s /bin/bash -m -d /home/hadoop hadoop</code>
+  * all hadoop file will be located in /usr/local/hadoop.
+<code bash>chown -R hadoop /usr/local/hadoop #change owner</code>
+  * sync master's config to slaves
+<code bash>
+rsync -avz /usr/local/hadoop/ client1:/usr/local/hadoop/
+hadoop@master1$ for i in 1 2 3
+do rsync -avz /usr/local/hadoop/ slave$i:/usr/local/hadoop/
+sleep 1
+done
+</code>
+  
+===== Master =====
+  * ssh enable from master to slaves
+<code bash>ssh-keygen -t rsa -N ""</code>
+  * copy public key of master's ~/.ssh/id_rsa to slave's ~/.ssh/authorized_keys
+
+===== Slaves =====
+  * create authorized_keys file if not exists
+  * add the public key of master to authorized_keys in master itself and in all slaves
+<code bash>
+mkdir ~/.ssh
+chmod 700 ~/.ssh
+cd ~/.ssh
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+</code>
+
+===== SSH Connection Test =====
+  * test ssh connection from master to slaves
+<code bash>ssh hadoop@slave1</code>

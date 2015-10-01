@@ -1,0 +1,112 @@
+/* COTW CSS Document - IMAGE REPLACEMENTS */
+
+
+
+.culture001 { background:url(/images/thumbs-home/culture001.jpg); }
+.culture002 { background:url(/images/thumbs-home/culture002.jpg); }
+.culture003 { background:url(/images/thumbs-home/culture003.jpg); }
+.culture004 { background:url(/images/thumbs-home/culture004.jpg); }
+.culture005 { background:url(/images/thumbs-home/culture005.jpg); }
+.culture006 { background:url(/images/thumbs-home/culture006.jpg); }
+
+.interviews001 { background:url(/images/thumbs-home/interviews001.jpg); }
+.interviews002 { background:url(/images/thumbs-home/interviews002.jpg); }
+.interviews003 { background:url(/images/thumbs-home/interviews003.jpg); }
+.interviews004 { background:url(/images/thumbs-home/interviews004.jpg); }
+.interviews005 { background:url(/images/thumbs-home/interviews005.jpg); }
+.interviews006 { background:url(/images/thumbs-home/interviews006.jpg); }
+.interviews007 { background:url(/images/thumbs-home/interviews007.jpg); }
+.interviews008 { background:url(/images/thumbs-home/interviews008.jpg); }
+.interviews009 { background:url(/images/thumbs-home/interviews009.jpg); }
+.interviews010 { background:url(/images/thumbs-home/interviews010.jpg); }
+.interviews011 { background:url(/images/thumbs-home/interviews011.jpg); }
+.interviews012 { background:url(/images/thumbs-home/interviews012.jpg); }
+.interviews013 { background:url(/images/thumbs-home/interviews013.jpg); }
+.interviews014 { background:url(/images/thumbs-home/interviews014.jpg); }
+
+.exhibits001 { background:url(/images/thumbs-home/exhibits001.jpg); }
+.exhibits002 { background:url(/images/thumbs-home/exhibits002.jpg); }
+.exhibits003 { background:url(/images/thumbs-home/exhibits003.jpg); }
+.exhibits004 { background:url(/images/thumbs-home/exhibits004.jpg); }
+.exhibits005 { background:url(/images/thumbs-home/exhibits005.jpg); }
+.exhibits006 { background:url(/images/thumbs-home/exhibits006.jpg); }
+.exhibits007 { background:url(/images/thumbs-home/exhibits007.jpg); }
+.exhibits008 { background:url(/images/thumbs-home/exhibits008.jpg); }
+.exhibits009 { background:url(/images/thumbs-home/exhibits009.jpg); }
+.exhibits010 { background:url(/images/thumbs-home/exhibits010.jpg); }
+.exhibits011 { background:url(/images/thumbs-home/exhibits011.jpg); }
+.exhibits012 { background:url(/images/thumbs-home/exhibits012.jpg); }
+.exhibits013 { background:url(/images/thumbs-home/exhibits013.jpg); }
+
+.tutorials001 { background:url(/images/thumbs-home/roxy-pro-art-tutorial.jpg); }
+
+.pro001 { background:url(/images/thumbs-home/quik-pro.jpg); }
+
+
+
+/*PROFILE MAPS
+---------------------------------------------------------------------------------------------------------------*/
+.map-california { background:url(/images/maps/california.gif) 0 0 no-repeat; }
+.map-hawaii { background:url(/images/maps/hawaii.gif) 0 0 no-repeat; }
+.map-massachusetts { background:url(/images/maps/massachusetts.gif) 0 0 no-repeat; }
+.map-florida { background:url(/images/maps/florida.gif) 0 0 no-repeat; }
+.map-washington { background:url(/images/maps/washington.gif) 0 0 no-repeat; }
+.map-texas { background:url(/images/maps/texas.gif) 0 0 no-repeat; }
+.map-new-jersey { background:url(/images/maps/new-jersey.gif) 0 0 no-repeat; }
+.map-new-york { background:url(/images/maps/new-york.gif) 0 0 no-repeat; }
+.map-south-carolina { background:url(/images/maps/south-carolina.gif) 0 0 no-repeat; }
+.map-oregon { background:url(/images/maps/oregon.gif) 0 0 no-repeat; }
+.map-nevada { background:url(/images/maps/nevada.gif) 0 0 no-repeat; }
+
+.map-east-australia { background:url(/images/maps/east-australia.gif) 0 0 no-repeat; }
+.map-west-australia { background:url(/images/maps/west-australia.gif) 0 0 no-repeat; }
+.map-south-australia { background:url(/images/maps/south-australia.gif) 0 0 no-repeat; }
+.map-tasmania { background:url(/images/maps/tasmania.gif) 0 0 no-repeat; }
+.map-tahiti { background:url(/images/maps/tahiti.gif) 0 0 no-repeat; }
+.map-new-zealand { background:url(/images/maps/new-zealand.gif) 0 0 no-repeat; }
+
+.map-uk { background:url(/images/maps/uk.gif) 0 0 no-repeat; }
+.map-france { background:url(/images/maps/france.gif) 0 0 no-repeat; }
+.map-italy { background:url(/images/maps/italy.gif) 0 0 no-repeat; }
+.map-sweden { background:url(/images/maps/sweden.gif) 0 0 no-repeat; }
+.map-canary { background:url(/images/maps/canary.gif) 0 0 no-repeat; }
+.map-spain { background:url(/images/maps/spain.gif) 0 0 no-repeat; }
+.map-germany { background:url(/images/maps/germany.gif) 0 0 no-repeat; }
+.map-austria { background:url(/images/maps/austria.gif) 0 0 no-repeat; }
+.map-holland { background:url(/images/maps/holland.gif) 0 0 no-repeat; }
+
+.map-nova-scotia { background:url(/images/maps/nova-scotia.gif) 0 0 no-repeat; }
+.map-tofino { background:url(/images/maps/tofino.gif) 0 0 no-repeat; }
+.map-alaska { background:url(/images/maps/alaska.gif) 0 0 no-repeat; }
+
+.map-south-africa { background:url(/images/maps/south-africa.gif) 0 0 no-repeat; }
+.map-indonesia { background:url(/images/maps/indonesia.gif) 0 0 no-repeat; }
+.map-reunion { background:url(/images/maps/reunion.gif) 0 0 no-repeat; }
+
+.map-brazil { background:url(/images/maps/brazil.gif) 0 0 no-repeat; }
+.map-mexico { background:url(/images/maps/mexico.gif) 0 0 no-repeat; }
+.map-mexico-ensenada { background:url(/images/maps/mexico-ensenada.gif) 0 0 no-repeat; }
+.map-caribbean { background:url(/images/maps/caribbean.gif) 0 0 no-repeat; }
+.map-costa-rica { background:url(/images/maps/costa-rica.gif) 0 0 no-repeat; }
+
+.map-bloch { background:url(/images/maps/bloch.gif) 0 0 no-repeat; }
+.map-california-morocco { background:url(/images/maps/cali-morocco.gif) 0 0 no-repeat; }
+.map-uk-australia { background:url(/images/maps/uk-australia.gif) 0 0 no-repeat; }
+.map-california-caribbean { background:url(/images/maps/california-caribbean.gif) 0 0 no-repeat; }
+.map-japan-australia { background:url(/images/maps/japan-australia.gif) 0 0 no-repeat; }
+.map-moretti { background:url(/images/maps/italy-indonesia-australia.gif) 0 0 no-repeat; }
+.map-brazil-australia { background:url(/images/maps/brazil-aus.gif) 0 0 no-repeat; }
+.map-california-uk { background:url(/images/maps/california-uk.gif) 0 0 no-repeat; }
+.map-hawaii-new-zealand { background:url(/images/maps/hawaii-new-zealand.gif) 0 0 no-repeat; }
+.map-spain-california { background:url(/images/maps/spain-california.gif) 0 0 no-repeat; }
+.map-france-japan { background:url(/images/maps/mayumi2.gif) 0 0 no-repeat; }
+.map-hawaii-baltimore { background:url(/images/maps/hawaii-baltimore.gif) 0 0 no-repeat; }
+.map-hawaii-brazil { background:url(/images/maps/hawaii-brazil.gif) 0 0 no-repeat; }
+.map-hawaii-tasmania { background:url(/images/maps/hawaii-tasmania.gif) 0 0 no-repeat; }
+.map-hawaii-indonesia { background:url(/images/maps/hawaii-indonesia.gif) 0 0 no-repeat; }
+.map-france-india { background:url(/images/maps/france-india.gif) 0 0 no-repeat; }
+.map-brazil-france { background:url(/images/maps/brazil-france.gif) 0 0 no-repeat; }
+.map-detroit-australia { background:url(/images/maps/detroit-australia.gif) 0 0 no-repeat; }
+.map-bali-west-australia { background:url(/images/maps/bali-west-australia.gif) 0 0 no-repeat; }
+
+

@@ -1,0 +1,4 @@
+====== Supa Plugin ======
+Supa ermöglicht es, Bilder direkt aus dem Clipboard hochzuladen, ohne sie erst
+in einer Datei zwischenspeichern zu müssen.
+

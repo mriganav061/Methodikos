@@ -1,0 +1,6 @@
+  <span class="kw2">mkdir</span> ~<span class="sy0">/</span>.ssh
+  <span class="kw2">chmod</span> <span class="nu0">700</span> ~<span class="sy0">/</span>.ssh
+  <span class="kw3">cd</span> ~<span class="sy0">/</span>.ssh
+  create authorized_keys <span class="kw2">file</span> <span class="kw1">if</span> not exists
+  add the public key of master to authorized_keys <span class="kw1">in</span> master itself and <span class="kw1">in</span> all slaves
+  <span class="kw2">cat</span> ~<span class="sy0">/</span>.ssh<span class="sy0">/</span>id_rsa.pub <span class="sy0">&gt;&gt;</span> ~<span class="sy0">/</span>.ssh<span class="sy0">/</span>authorized_keys

@@ -1,0 +1,47 @@
+<div id="pcc-detail-window" style='font-size:13px'>
+	<div>Set Pavement Current Condition Weights</div>
+	<div id="pcc-detail-window-content">
+		<form id="pcc-form" action="./">
+		<fieldset><legend>Weight Allocation:</legend>
+	    <div class='window-row'>
+	        <label>Condition Score/Distress Score:</label>
+	        <div id='ratio-csds'></div>
+	    </div>
+	    <div class='window-row'>
+	       <label>Ride Score:</label>
+	       <div id='ratio-ride'></div>
+	    </div>
+	    
+	    <div class='window-row'>
+	       <label>Rate of Deterioration:</label>
+	       <div id='ratio-rod'></div>
+	    </div>
+	    
+	    <div class='window-row'>
+	       <label>Skid Rating:</label>
+	       <div id='ratio-skid'></div>
+	    </div>
+	    
+	    <div class='window-row'>
+	       <label>Structural Condition Rating:</label>
+	       <div id='ratio-sci'></div>
+	    </div>
+	    
+	    <div class='window-row'>
+	       <label>Visual Assessment:</label>
+	       <div id='ratio-va'></div>
+	    </div>
+	    
+	    <div class='window-row'>
+	        <label>Total:</label>
+	        <input type='text' style='text-align:right' readonly id="ratio-pcc-total"></input>
+	    </div>
+	    </fieldset>
+		<div style="float: right; margin-top: 10px;">
+			<input type="button" id="pcc-detail-window-restore" value="Set to Default" />
+			<input type="button" id="pcc-detail-window-ok" value="Save" />
+			<input type="button" id="pcc-detail-window-cancel" value="Cancel" />
+		</div>
+		</form>
+	</div>
+</div>

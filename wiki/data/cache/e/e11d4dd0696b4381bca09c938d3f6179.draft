@@ -1,0 +1,19 @@
+a:6:{s:2:"id";s:14:"data_importing";s:6:"prefix";s:0:"";s:4:"text";s:682:"====== Data Tier Implementation ======
+
+===== Steps =====
+  - Test Data will be used from Bryan 
+  - Automatically detect database file update or new database file (Spring Integration)
+    - Extract new records
+  - Database Synchronization between Access and PostgreSQL residing in server-side (in parallel)
+    - PostgreSQL has different schemas from access database
+    - Need some mechanism for migration
+  - Configure Hadoop system at EC2 (e.g. use 1master and 2slaves)
+  - Configure HBase
+  - Using Sqoop, import PostgreSQL data to HBase at HDFS.
+  - Configure Spring Framework Data Hadoop
+  - Doing some MapReduce work
+
+
+
+===== Data Tier Configuration =====
+";s:6:"suffix";s:0:"";s:4:"date";i:0;s:6:"client";s:12:"165.91.11.80";}

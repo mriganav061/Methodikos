@@ -1,0 +1,43 @@
+The initial commercial launch will include three infrastructure types:
+  *  Bridges
+  *  Pavement
+  *  Bike Paths & Sidewalks
+
+Tiered packages will be offered to the client: Deer (light), Seal (medium), and Bear (heavy duty).  The requirements for these packages are illustrated in Table 1. The prototype development will focus on the Deer Package for pavements only.
+=== Table 1 Requirements for the three tiered packages. ===
+^ Feature      ^ Deer       ^ Seal          ^ Bear          ^
+| Data File    | .csv, .xls, .mdb     | Variable        | Variable        |
+| Data File Upload Method    | Wizard control     | Variable        | Variable        |
+| Number of Data Columns    | Fixed (17 columns for pavement, see table 2)      | Variable        | Variable        |
+| Number of Data Rows    | Unlimited      | Unlimited        | Unlimited        |
+| Photos and Videos    | No      | Yes        | Yes        |
+| Maps    | Available if user provides coordinates      | Available if user provides coordinates        | Available if user provides coordinates        |
+| Data Sharing (analogues to Facebook)    | Yes      | Yes        | Yes        |
+| Segmentation    | No      | Yes        | Yes        |
+| Forced Projects    | No      | Yes        | Yes        |
+| Analysis Period    | Fixed at 4 years      | User-defined        | User-defined        |
+| Output File Type    | pdf      | User-defined        | User-defined        |
+| Output File Format   | Fixed      | User-defined        | User-defined        |
+| Output File Content   | 1. Heading, 2. Summary input table, 3. List of selected projects, & 4. Output tables and graphs     | User-defined        | User-defined        |
+| Cost    | Free for one year and then $xx/year if the client wishes to continue     | $xx/year        | xx/year        |
+
+=== Table 2 Pavement Basic Columns for the Deer Package. ===
+^ Data Column       ^ Name in TxPave Management Section Table       ^ Comment          ^ 
+| Roadway Name    | Not available     | NA        | 
+| Segment ID    | SEGMENT_ID     | NA        | 
+| Beginning X-coordinate	    | Not available     | Could be longitude coordinate obtained from GPS       |
+| Beginning Y-coordinate	    | Not available     | Could be latitude coordinate obtained from GPS       |
+| End X-coordinate	    | Not available     | Could be longitude coordinate obtained from GPS       |
+| End Y-coordinate	    | Not available	| Could be latitude coordinate obtained from GPS       |
+| Segment Length	    | GP_LENGTH	     | NA        |
+| Data Year	    | FISCAL_YEAR      | NA        |
+| Condition Index	    | GP_CONDITION SCORE	     | NA        |
+| Pavement Family	    | GP_PVMT_FAMILY	     | NA        |
+| Climatic and Subgrade Zone	    | GP_ZONE_NUMBER | NA        |	     
+| Type of Prior Treatment	    | PRIOR_TREATMENT	     | NA        |
+| Year of Prior Treatment	    | YEAR_PRIOR_TREATMENT	    | NA        | 
+| Traffic Loading	    | GP_EASL	     | NA        |
+| Traffic Volume	    | GP_AADT	     | NA	     | 
+| Speed Limit	    | GP_SPEED_LIMIT_MAX     | NA	     | 
+| Percent Trucks	    | GP_TRUCK_AADT_PCT	     | NA     | 
+ 

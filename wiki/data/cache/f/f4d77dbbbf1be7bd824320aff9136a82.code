@@ -1,0 +1,9 @@
+angular.controller('Step1Ctrl', ['$scope', function($scope) {
+  $scope.$on(&quot;$wizardChange&quot;, function(e, changeEvent, changeInfo) {
+    if (changeInfo.step === 1 &amp;&amp; changeInfo.direction === &quot;next&quot;) {
+      // import validation logic here!!
+      if (## not form is not valid ##)
+        changeEvent.preventDefault();    // This will prevent users from going next step;        
+    }
+  });
+}]);

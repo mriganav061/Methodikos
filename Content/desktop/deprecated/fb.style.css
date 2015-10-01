@@ -1,0 +1,189 @@
+#arrowDown {
+	position: absolute;
+	top: -67px;
+	left: 70px;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #1f1f1f;
+}
+
+#fB {
+	width: 275px;
+	height: 115px;
+	font-size: 14px;
+}
+
+.tooltip {
+	position: absolute;
+	z-index: 5;
+	background-color: whitesmoke;
+	font-size: 11px;
+	padding: 5px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	border: 1px solid #ccc;
+	opacity: .95;
+	-moz-box-shadow: 0px 0px 22px -6px #000000;
+	-webkit-box-shadow: 0px 0px 22px -6px #000000;
+	box-shadow: 0px 0px 22px -6px #000000;
+	display: none;
+}
+
+.floatBox {
+	position: absolute;
+	z-index: 5;
+	background-color: whitesmoke;
+	padding: 10px;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: normal;
+	color: #303030;
+	-moz-box-shadow: 0px 0px 22px -6px #000000;
+	-webkit-box-shadow: 0px 0px 22px -6px #000000;
+	box-shadow: 0px 0px 22px -6px #000000;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	opacity: .9;
+}
+
+.floatVis {
+	float: left;
+	z-index: 6;
+	width: 275px;
+	height: 115px;
+	font-size: 14px;
+	padding: 10px;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: normal;
+	color: white;
+	margin-right: -115px;
+	margin-top: -195px;
+	-moz-box-shadow: 0px 0px 22px -6px #000000;
+	-webkit-box-shadow: 0px 0px 22px -6px #000000;
+	box-shadow: 0px 0px 22px -6px #000000;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	opacity: .9;
+	background-image: linear-gradient(bottom, #1F1F1F 54%, #2E2D2E 92%);
+	background-image: -o-linear-gradient(bottom, #1F1F1F 54%, #2E2D2E 92%);
+	background-image: -moz-linear-gradient(bottom, #1F1F1F 54%, #2E2D2E 92%);
+	background-image: -webkit-linear-gradient(bottom, #1F1F1F 54%, #2E2D2E 92%);
+	background-image: -ms-linear-gradient(bottom, #1F1F1F 54%, #2E2D2E 92%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.54, #1F1F1F
+		), color-stop(0.92, #2E2D2E) );
+}
+
+.floatVis .medianIncome {
+	border-bottom: 1px solid dimgrey;
+}
+
+.floatVis .twoMonths {
+	border-right: 1px solid dimgrey;
+	padding: 0 12px 0 4px;
+	margin-top: 3px;
+	width: 129px;
+}
+
+.floatVis span {
+	color: #ccc;
+}
+
+.floatBox {
+	display: none;
+}
+
+.infoWindowTitle {
+	float: left;
+	font-size: 15px;
+}
+
+.districtName {
+	float: left;
+	width: 255px;
+	border-bottom: 1px solid #ccc;
+	padding-left: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-bottom: 5px;
+}
+
+.districtInfo1 {
+	float: left;
+	display: inline;
+	padding-top: 3px;
+	border-right: 1px solid #ccc;
+	width: 137px;
+	height: 50px;
+	text-align: center;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+
+.districtInfo2 {
+	float: left;
+	display: inline;
+	padding-top: 3px;
+	text-align: center;
+	padding-left: 10px;
+	width: 114px;
+	height: 39px;
+	vertical-align: middle;
+}
+
+#headSpace {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: normal;
+	color: #303030;
+	width: 100%;
+	margin: 0;
+}
+
+#headSpace h1 {
+	margin-top: 0;
+	font-size: 18px;
+	color: #2262CC;
+}
+
+#headSpace h5 {
+	font-weight: normal;
+}
+
+p {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: normal;
+}
+
+#locate-me {
+	display: inline;
+	margin-top: 11px;
+	margin-left: 10px;
+	float: left;
+}
+
+#address {
+	width: 109px;
+	color: #848484;
+}
+
+#locate-me span {
+	font-family: arial, sans-serif;
+	font-size: .9em;
+	color: #333;
+	margin-right: 5px;
+}
+
+#locateBtn {
+	width: 32px;
+}
+
+#locateBg {
+	float: left;
+	margin-top: 15px;
+	margin-left: -10px;
+	width: 170px;
+	background-color: #E9F0F8;
+}

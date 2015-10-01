@@ -1,0 +1,41 @@
+====== Technical note ======
+
+===== Client side =====
+
+==== Wizard component ====
+=== How to use it ===
+I implement reusable wizard module using AngularJS directive feature and jQuery plugin. For adding wizard in the web interface is as simple as adding a html tag **<mth-wizard="wizardOpt"></mth-wizard>**. "wizardOpt" will contain the options for wizard that will be added. Define wizardOpt in scope as below
+<code lang="javascript">
+$scope.wizardOpt = {
+  stepTitles: ["Step1", "Step2", "Step3"],
+  stepForms: ["template.for.step1.html", "template.for.step2.html", "template.for.step3.html"]
+}
+</code>
+
+In template.for.step1.html file
+<code lang="HTML">
+<div ng-controller="Step1Ctrl">
+  <p> This is step 1</p>
+</div>
+</code>
+
+and so on for other templates.
+
+For providing validation logic for each step in wizard. Just define controller that is associated with the template view and listen on $wizardChange event which will pass changeEvent, changeInfo arguments. For example,
+
+<code lang="javascript">
+angular.controller('Step1Ctrl', ['$scope', function($scope) {
+  $scope.$on("$wizardChange", function(e, changeEvent, changeInfo) {
+    if (changeInfo.step === 1 && changeInfo.direction === "next") {
+      // import validation logic here!!
+      if (## not form is not valid ##)
+        changeEvent.preventDefault();    // This will prevent users from going next step;        
+    }
+  });
+}]);
+</code>
+
+It is also possible to add wizard in modal. Simply add HTML button tag with mth-modal-wizard and modal-opts attributes. For example, **<button mth-modal-wizard="wizardOpts" modal-opts="modalOpts"> Open Wizard </button>**
+
+=== Logic behind ===
+

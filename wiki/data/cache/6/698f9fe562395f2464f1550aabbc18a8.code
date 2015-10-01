@@ -1,0 +1,1 @@
+<span class="kw2">chown</span> <span class="re5">-R</span> hadoop <span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>hadoop

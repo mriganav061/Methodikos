@@ -1,0 +1,52 @@
+<div id="assessment-window" style='font-size:13px'>
+	<div>Enter District Assessments</div>
+	<div id="assessment-window-content">
+		<fieldset>
+			<legend>District Assessments and Forced Projects:</legend>
+		    <div class='window-row'>
+		        <label>Highway:</label>
+		        <div id='combo-highway'></div>
+		    </div>
+		    <div class='window-row'>
+		        <label>Beginning Reference Marker:</label>
+		        <div id='combo-brm'></div>
+		    </div>
+		    
+		    <div class='window-row'>
+		        <label>Ending Reference Marker:</label>
+		        <div id='combo-erm'></div>
+		    </div>
+		    
+		    <div class='window-row'>
+		        <label>Assessment Type:</label>
+		        <div id='combo-assess-type'></div>
+		    </div>
+		    
+		    <div class='window-row'>
+		        <label>Assessment Value:</label>
+		        <div id='combo-assess-val'></div>
+		    </div>	    
+	    </fieldset>
+	    <div style="margin-left: 180px; margin-top: 10px; margin-bottom: 5px;">
+			<input type="button" id="assessment-window-add" value="Add" />
+			<input type="button" id="assessment-window-remove" value="Remove" />
+		</div>
+	    <fieldset>
+			<legend>Summary:</legend>
+		    <div class='window-row'>
+		        <div id='assess-grid'></div>
+		    </div>
+		    <table style='border:0px;margin-top:5px;'>
+		    <tr>
+		   		<td>Extrapolate to full segment if at least&nbsp;</td>
+		   		<td><div id='assess-threshold'></div></td>
+		   		<td>% of it is rated</td>
+		   	</tr>
+		   	</table>
+	    </fieldset>
+		<div style="float: right; margin-top: 10px;">
+			<input type="button" id="assessment-window-ok" value="Save Assessment" />
+			<input type="button" id="assessment-window-cancel" value="Cancel" />
+		</div>
+	</div>
+</div>

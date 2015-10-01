@@ -1,0 +1,26 @@
+<div id="ctv-detail-window" style='font-size:13px'>
+	<div>Set Current Traffic Volumn Weights</div>
+	<div id="ctv-detail-window-content">
+		<form id="ctv-form" action="./">
+		<fieldset><legend>Weight Allocation:</legend>
+	    <div class='window-row'>
+	        <label style='width:100px'>AADT:</label>
+	        <div id='ratio-aadt'></div>
+	    </div>
+	    <div class='window-row'>
+	       <label style='width:100px'>Truck AADT:</label>
+	       <div id='ratio-taadt'></div>
+	    </div>
+	    <div class='window-row'>
+	        <label style='width:100px'>Total:</label>
+	        <input type='text' style='text-align:right' readonly id="ratio-ctv-total"></input>
+	    </div>
+	    </fieldset>
+		<div style="float: right; margin-top: 10px;">
+			<input type="button" id="ctv-detail-window-restore" value="Set to Default" />
+			<input type="button" id="ctv-detail-window-ok" value="Save" />
+			<input type="button" id="ctv-detail-window-cancel" value="Cancel" />
+		</div>
+		</form>
+	</div>
+</div>

@@ -1,0 +1,38 @@
+====== Methodikos Business Operation ======
+This page is intended to describe business operations that will be used in Methodikos to enlighten designing domain model that is suitable for efficient MapReduce programming model. Some of these operations are taken from txpave project and sub-operations are listed by inspecting the code and Paul's thesis.
+
+===== Data Import =====
+  * As of 9/9/13, we have following data import logic. (TODO Make some flow chart for this)
+  * User must provide **one file** (csv only for now) in Dropzone of first step in Import wizard.
+    * Failing to do that will not allow users to go next step of wizard with "Error Message" using gritter notification.(http://boedesign.com/blog/2009/07/11/growl-for-jquery-gritter/)
+    * Once user drop an acceptable file (with .csv extension), he clicks the "next" button which will trigger uploading the file to the server. User can see the progress of file uploading in the form of progress bar. While uploading is being done, the next button will be disabled for users not to click it.
+      * It is possible that something might go wrong when uploading the file so the error message will pop up. In this case, user will be able to retry uploading.
+    * Once the file uploading is done, the wizard will be going to next step automatically.
+      * It is possible for user to go back to first step to provide another file. When he uploads another file by going back from step 2 to step 1, the previously uploaded file at server side will be deleted to prevent files from being stacked up even though they are not needed.
+      * When user goes back to step 1 and not provides another valid file the wizard won't let user go next step so the same validation logic will be applied again.
+    * ...
+
+
+===== Data Cleaning =====
+
+
+===== Data Segmentation =====
+==== Preliminary Grouping ====
+The road network sections are preliminarily grouped at this stage. Each group contains a set of sections that belong to same highway id and that is continuos (meaning neighboring sections are connected as they are sharing same intersection point) and same pavement type. [[segmentation-pre-grouping-code|Code]]
+==== Segmenting By ====
+The main segmentation is performed by using three evaluation metrics named ESAL, Distress Score, and Condition Score. The CS, DS threshold values for segmentation are inputted from the user.
+
+==== Stitching and Splitting ====
+Once we have three segmentation results from each evaluation metric, these results will be stitched to one final segmentation result. For stitching process, the following priority is applied since there will be boundary conflict between any two.
+  * DS based segmentation result will have priority over ESAL based.
+  * CS based will have priority over DS based.
+  * So, ESAL < DS < CS.
+ 
+===== Module 3&4 (Data Analysis) =====
+
+
+===== Report Generation =====
+This section describes what information needs to be included in the report from an analysis.
+  * Budget
+  * Project list with preventative maintenance method PM, LR, MR, or HR
+  * Prediction model

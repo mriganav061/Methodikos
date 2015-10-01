@@ -1,0 +1,2 @@
+$scope.stepTitles = [&quot;Step1&quot;, &quot;Step2&quot;, &quot;Step3&quot;]
+var

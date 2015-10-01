@@ -1,0 +1,68 @@
+
+<h1 class="sectionedit1" id="technical_note">Technical note</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT1 SECTION "Technical note" [1-30] -->
+<h2 class="sectionedit2" id="client_side">Client side</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT2 SECTION "Client side" [31-55] -->
+<h3 class="sectionedit3" id="wizard_component">Wizard component</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="how_to_use_it">How to use it</h4>
+<div class="level4">
+
+<p>
+I implement reusable wizard module using AngularJS directive feature and jQuery plugin. For adding wizard in the web interface is as simple as adding a html tag <strong>&lt;mth-wizard=“wizardOpt”&gt;&lt;/mth-wizard&gt;</strong>. “wizardOpt” will contain the options for wizard that will be added. Define wizardOpt in scope as below
+<pre class="code lang="javascript"">$scope.wizardOpt = {
+  stepTitles: [&quot;Step1&quot;, &quot;Step2&quot;, &quot;Step3&quot;],
+  stepForms: [&quot;template.for.step1.html&quot;, &quot;template.for.step2.html&quot;, &quot;template.for.step3.html&quot;]
+}</pre>
+
+</p>
+
+<p>
+In template.for.step1.html file
+<pre class="code lang="HTML"">&lt;div ng-controller=&quot;Step1Ctrl&quot;&gt;
+  &lt;p&gt; This is step 1&lt;/p&gt;
+&lt;/div&gt;</pre>
+
+</p>
+
+<p>
+and so on for other templates.
+</p>
+
+<p>
+For providing validation logic for each step in wizard. Just define controller that is associated with the template view and listen on $wizardChange event which will pass changeEvent, changeInfo arguments. For example,
+</p>
+
+<p>
+<pre class="code lang="javascript"">angular.controller('Step1Ctrl', ['$scope', function($scope) {
+  $scope.$on(&quot;$wizardChange&quot;, function(e, changeEvent, changeInfo) {
+    if (changeInfo.step === 1 &amp;&amp; changeInfo.direction === &quot;next&quot;) {
+      // import validation logic here!!
+      if (## not form is not valid ##)
+        changeEvent.preventDefault();    // This will prevent users from going next step;        
+    }
+  });
+}]);</pre>
+
+</p>
+
+<p>
+It is also possible to add wizard in modal. Simply add <abbr title="HyperText Markup Language">HTML</abbr> button tag with mth-modal-wizard and modal-opts attributes. For example, <strong>&lt;button mth-modal-wizard=“wizardOpts” modal-opts=“modalOpts”&gt; Open Wizard &lt;/button&gt;</strong>
+</p>
+
+</div>
+
+<h4 id="logic_behind">Logic behind</h4>
+<div class="level4">
+
+</div>
+<!-- EDIT3 SECTION "Wizard component" [56-] -->

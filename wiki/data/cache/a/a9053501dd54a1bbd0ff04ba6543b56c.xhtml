@@ -1,0 +1,39 @@
+
+<h1 class="sectionedit1" id="zookeeper">Zookeeper</h1>
+<div class="level1">
+<ol>
+<li class="level1"><div class="li"> Create Directory at /usr/local/zookeeper</div>
+</li>
+<li class="level1"><div class="li"> Download zookeeper from <a href="http://mirrors.sonic.net/apache/zookeeper/" class="urlextern" title="http://mirrors.sonic.net/apache/zookeeper/"  rel="nofollow">http://mirrors.sonic.net/apache/zookeeper/</a></div>
+</li>
+<li class="level1"><div class="li"> Untar zookeeper file and create symbolic link</div>
+</li>
+<li class="level1"><div class="li"> Create directories for ZooKeeper to store its snapshot and transaction log:</div>
+<ul>
+<li class="level2"><div class="li"> /usr/local/zookeeper/var/data</div>
+</li>
+<li class="level2"><div class="li"> /usr/local/zookeeper/var/datalog</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> Create current/conf/java.env</div>
+</li>
+</ol>
+
+<p>
+<pre class="code bash"><span class="re2">JAVA_HOME</span>=<span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>jdk1.6
+<span class="kw3">export</span> <span class="re2">PATH</span>=<span class="re1">$JAVA_HOME</span><span class="sy0">/</span>bin:<span class="re1">$PATH</span></pre>
+
+</p>
+<ol>
+<li class="level1"><div class="li"> Copy the sample ZooKeeper setting file, and make the following changes to set where ZooKeeper should store its data:</div>
+</li>
+</ol>
+
+<p>
+<pre class="code bash"><span class="re2">dataDir</span>=<span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>zookeeper<span class="sy0">/</span>var<span class="sy0">/</span>data
+<span class="re2">dataLogDir</span>=<span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>zookeeper<span class="sy0">/</span>var<span class="sy0">/</span>datalog</pre>
+
+</p>
+
+</div>

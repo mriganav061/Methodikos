@@ -1,0 +1,108 @@
+
+<h1 class="sectionedit1" id="methodikos_business_operation">Methodikos Business Operation</h1>
+<div class="level1">
+
+<p>
+This page is intended to describe business operations that will be used in Methodikos to enlighten designing domain model that is suitable for efficient MapReduce programming model. Some of these operations are taken from txpave project and sub-operations are listed by inspecting the code and Paul&#039;s thesis.
+</p>
+
+</div>
+<!-- EDIT1 SECTION "Methodikos Business Operation" [1-354] -->
+<h2 class="sectionedit2" id="data_import">Data Import</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> As of 9/9/13, we have following data import logic. (<img src="/wiki/lib/images/smileys/todo.gif" class="icon" alt="TODO" /> Make some flow chart for this)</div>
+</li>
+<li class="level1"><div class="li"> User must provide <strong>one file</strong> (csv only for now) in Dropzone of first step in Import wizard.</div>
+<ul>
+<li class="level2"><div class="li"> Failing to do that will not allow users to go next step of wizard with “Error Message” using gritter notification.(<a href="http://boedesign.com/blog/2009/07/11/growl-for-jquery-gritter/" class="urlextern" title="http://boedesign.com/blog/2009/07/11/growl-for-jquery-gritter/"  rel="nofollow">http://boedesign.com/blog/2009/07/11/growl-for-jquery-gritter/</a>)</div>
+</li>
+<li class="level2"><div class="li"> Once user drop an acceptable file (with .csv extension), he clicks the “next” button which will trigger uploading the file to the server. User can see the progress of file uploading in the form of progress bar. While uploading is being done, the next button will be disabled for users not to click it.</div>
+<ul>
+<li class="level3"><div class="li"> It is possible that something might go wrong when uploading the file so the error message will pop up. In this case, user will be able to retry uploading.</div>
+</li>
+</ul>
+</li>
+<li class="level2"><div class="li"> Once the file uploading is done, the wizard will be going to next step automatically.</div>
+<ul>
+<li class="level3"><div class="li"> It is possible for user to go back to first step to provide another file. When he uploads another file by going back from step 2 to step 1, the previously uploaded file at server side will be deleted to prevent files from being stacked up even though they are not needed.</div>
+</li>
+<li class="level3"><div class="li"> When user goes back to step 1 and not provides another valid file the wizard won&#039;t let user go next step so the same validation logic will be applied again.</div>
+</li>
+</ul>
+</li>
+<li class="level2"><div class="li"> …</div>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+<!-- EDIT2 SECTION "Data Import" [355-1773] -->
+<h2 class="sectionedit3" id="data_cleaning">Data Cleaning</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT3 SECTION "Data Cleaning" [1774-1801] -->
+<h2 class="sectionedit4" id="data_segmentation">Data Segmentation</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT4 SECTION "Data Segmentation" [1802-1831] -->
+<h3 class="sectionedit5" id="preliminary_grouping">Preliminary Grouping</h3>
+<div class="level3">
+
+<p>
+The road network sections are preliminarily grouped at this stage. Each group contains a set of sections that belong to same highway id and that is continuos (meaning neighboring sections are connected as they are sharing same intersection point) and same pavement type. <a href="/wiki/doku.php?id=segmentation-pre-grouping-code" class="wikilink1" title="segmentation-pre-grouping-code">Code</a>
+</p>
+
+</div>
+<!-- EDIT5 SECTION "Preliminary Grouping" [1832-2173] -->
+<h3 class="sectionedit6" id="segmenting_by">Segmenting By</h3>
+<div class="level3">
+
+<p>
+The main segmentation is performed by using three evaluation metrics named ESAL, Distress Score, and Condition Score. The CS, DS threshold values for segmentation are inputted from the user.
+</p>
+
+</div>
+<!-- EDIT6 SECTION "Segmenting By" [2174-2389] -->
+<h3 class="sectionedit7" id="stitching_and_splitting">Stitching and Splitting</h3>
+<div class="level3">
+
+<p>
+Once we have three segmentation results from each evaluation metric, these results will be stitched to one final segmentation result. For stitching process, the following priority is applied since there will be boundary conflict between any two.
+</p>
+<ul>
+<li class="level1"><div class="li"> DS based segmentation result will have priority over ESAL based.</div>
+</li>
+<li class="level1"><div class="li"> CS based will have priority over DS based.</div>
+</li>
+<li class="level1"><div class="li"> So, ESAL &lt; DS &lt; CS.</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT7 SECTION "Stitching and Splitting" [2390-2811] -->
+<h2 class="sectionedit8" id="module_3_4_data_analysis">Module 3&amp;4 (Data Analysis)</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT8 SECTION "Module 3&4 (Data Analysis)" [2812-2852] -->
+<h2 class="sectionedit9" id="report_generation">Report Generation</h2>
+<div class="level2">
+
+<p>
+This section describes what information needs to be included in the report from an analysis.
+</p>
+<ul>
+<li class="level1"><div class="li"> Budget</div>
+</li>
+<li class="level1"><div class="li"> Project list with preventative maintenance method PM, LR, MR, or HR</div>
+</li>
+<li class="level1"><div class="li"> Prediction model</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT9 SECTION "Report Generation" [2853-] -->
